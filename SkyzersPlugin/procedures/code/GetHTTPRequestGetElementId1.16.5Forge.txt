@@ -1,0 +1,23 @@
+(new Object(){
+	public String getElementID(){
+	    try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpget = new HttpGet(${input$url});
+            CloseableHttpResponse httpresponse = httpclient.execute(httpget);
+            HttpEntity entityHTTP = httpresponse.getEntity();
+            String responseString = EntityUtils.toString(entityHTTP, "UTF-8");
+
+            // Utilisation de Jsoup pour analyser la page HTML
+            org.jsoup.nodes.Document document = org.jsoup.Jsoup.parse(responseString);
+
+            // Extraction de la valeur de l'élément d'entrée avec l'ID "results_id"
+            String resultsIdValue = document.select("#" + ${input$elementID}).attr("value");
+
+			return resultsIdValue;
+        } catch (IOException e) {
+            System.out.println("Error fetching URL");
+            e.printStackTrace();
+			return null;
+        }
+    }
+}.getElementID())

@@ -1,0 +1,20 @@
+setCustomName
+0
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+Set custom name of entity %1 to %2
+0
+2
+0 0
+entity
+Entity
+2
+name
+Text
+6
+CustomName
+[VERSION] 1.16.5 Forge
+0
+0
+0

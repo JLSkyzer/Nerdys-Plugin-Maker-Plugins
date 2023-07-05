@@ -1,0 +1,16 @@
+HasTileEntity
+1
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+Block %1 has tile entity
+4
+1
+0
+currBlock
+Block
+0
+[VERSION] 1.16.5 Forge
+1
+0
+0

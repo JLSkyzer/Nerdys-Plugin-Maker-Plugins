@@ -1,0 +1,1 @@
+${input$entity}.setGlowing(${input$condition});

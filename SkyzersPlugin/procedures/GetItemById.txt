@@ -1,0 +1,17 @@
+GetItemById
+1
+0.485294 0.0547145 0.0547145 1
+JLSkyzer Procedures [END]
+17
+Get item by id %1
+3
+1
+0
+id
+Text
+6
+minecraft:dirt
+[VERSION] 1.16.5 Forge
+0
+0
+0

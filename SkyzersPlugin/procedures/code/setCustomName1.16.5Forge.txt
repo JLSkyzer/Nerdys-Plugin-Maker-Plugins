@@ -1,0 +1,3 @@
+net.minecraft.util.text.ITextComponent name = new net.minecraft.util.text.StringTextComponent(${input$name});
+
+${input$entity}.setCustomName(name);

@@ -1,0 +1,6 @@
+SkyzersPlugin
+skyzersplugin
+1.0
+JLSkyzer
+Plugin pour les goats
+Made with MCreator plugin builder by NerdyPuzzle

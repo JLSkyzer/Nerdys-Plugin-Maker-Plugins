@@ -1,0 +1,3 @@
+CompoundTag compoundTag = ${input$item}.getOrCreateTag();
+compoundTag.put("Lore", ${input$lore});
+${input$item}.setTag(compoundTag);

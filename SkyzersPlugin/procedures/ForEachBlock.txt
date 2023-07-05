@@ -1,0 +1,22 @@
+ForEachBlock
+0
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+For each block as %1 in a square cube sized %3 do %2
+0
+3
+0 5 0
+blockIterrator
+Block
+0
+boucle
+0
+size
+Number
+5
+0
+[VERSION] 1.16.5 Forge
+1
+0
+0
