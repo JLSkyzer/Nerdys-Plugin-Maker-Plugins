@@ -1,0 +1,1 @@
+${input$entity}.setCustomNameVisible(${input$condition});

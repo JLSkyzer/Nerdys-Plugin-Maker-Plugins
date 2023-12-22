@@ -1,0 +1,22 @@
+SetEntityNBTString
+0
+0.376471 0.6 0.52549 1
+JLSkyzer Procedures [END]
+17
+Set Persistent NBT String %1 to value %2
+0
+2
+0 0
+NBTName
+Text
+6
+NBT Name
+NBTValue
+Text
+6
+MyValue
+[VERSION] 1.16.5 Forge
+[VERSION] 1.20.1 Forge
+1
+0
+0

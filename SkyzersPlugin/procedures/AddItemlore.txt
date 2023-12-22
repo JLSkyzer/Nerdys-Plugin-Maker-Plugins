@@ -15,6 +15,7 @@ Text
 6
 Lore
 [VERSION] 1.16.5 Forge
+[VERSION] 1.20.1 Forge
 0
 0
 0

@@ -1,0 +1,22 @@
+new Object(){
+	private int getChunkZ(int input){
+		int chunkZ = (int) input;
+		// Z
+		if (chunkZ > 15){
+			chunkZ = (int) Math.floor((double) chunkZ / 16);
+		}else{
+			chunkZ = 0;
+		}
+		if(chunkZ < -15) {
+			if(chunkZ >= 31){
+				chunkZ = -2;
+			}else{
+				chunkZ = (int) Math.floor((double) chunkZ / 16);
+			}
+		}else if(chunkZ < 0) {
+			chunkZ = -1;
+		}
+
+		return chunkZ;
+	}
+}.getChunkZ(${input$input})

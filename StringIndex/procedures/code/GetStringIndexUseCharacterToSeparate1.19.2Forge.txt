@@ -1,0 +1,9 @@
+(new Object() {
+String string = ${input$text};
+String[] value = string.split(${input$char});
+String indexvalue = value[${input$index}];
+String getString() {
+    String s = indexvalue;
+    return s;
+    }
+}.getString())

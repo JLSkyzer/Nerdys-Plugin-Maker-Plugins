@@ -1,0 +1,8 @@
+new Object(){
+	private String getChunkX(int x, int z){
+		World getWorld = Minecraft.getInstance().world;
+		IChunk chunk = getWorld.getChunk(x, z);
+
+		return chunk.toString();
+	}
+}.getChunkX((int) ${input$locationX}, (int) ${input$locationZ})

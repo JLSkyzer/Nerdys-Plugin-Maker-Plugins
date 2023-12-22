@@ -1,0 +1,36 @@
+GetStringIndexUseCharacterToSeparate
+1
+0.0352941 0.321569 0.643137 1
+StringIndex [END]
+17
+Get string index at index %1 from string %2 separate with character : %3
+6
+3
+0 0 0
+index
+Number
+5
+0
+text
+Text
+6
+text
+char
+Text
+6
+text
+[VERSION] 1.12.2 Forge
+[VERSION] 1.16.5 Forge
+[VERSION] 1.18.2 Forge
+[VERSION] 1.19.2 Forge
+[VERSION] 1.19.4 Forge
+[VERSION] 1.20 Forge
+[VERSION] 1.20.1 Forge
+[VERSION] 1.18.2 Fabric
+[VERSION] 1.19.2 Fabric
+[VERSION] 1.19.4 Fabric
+[VERSION] 1.20 Fabric
+[VERSION] 1.20.1 Fabric
+0
+0
+0

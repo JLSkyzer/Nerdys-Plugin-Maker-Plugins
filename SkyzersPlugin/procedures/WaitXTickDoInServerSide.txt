@@ -1,0 +1,19 @@
+WaitXTickDoInServerSide
+0
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+(local variable) Wait %1 ticks and do in server-side %2
+0
+2
+0 5
+tick
+Number
+5
+20
+execute
+0
+[VERSION] 1.16.5 Forge
+1
+0
+0

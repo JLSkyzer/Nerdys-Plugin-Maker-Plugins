@@ -1,0 +1,16 @@
+InputFileIterrator
+0
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+File Iterrator do : %1
+0
+1
+0
+action
+Text
+6
+[VERSION] 1.16.5 Forge
+0
+0
+0

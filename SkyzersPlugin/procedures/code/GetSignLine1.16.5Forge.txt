@@ -1,0 +1,11 @@
+(new Object(){
+    public String getSignLineText(IWorld signWorld, BlockPos pos, int lineNumber) {
+    net.minecraft.tileentity.SignTileEntity sign = (net.minecraft.tileentity.SignTileEntity) signWorld.getTileEntity(pos);
+    if (sign != null) {
+        net.minecraft.util.text.ITextComponent lineTextComponent = sign.getText(lineNumber);
+        String lineText = lineTextComponent.getString();
+        return lineText;
+    }
+        return ""; // Retourner une chaîne vide si le bloc n'est pas un panneau en bois ou si le panneau est vide
+    }
+}.getSignLineText(world, new BlockPos(${input$posX}, ${input$posY}, ${input$posZ}), ${input$line}))

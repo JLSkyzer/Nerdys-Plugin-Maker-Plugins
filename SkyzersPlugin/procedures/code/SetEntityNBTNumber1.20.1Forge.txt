@@ -1,0 +1,1 @@
+persistentData.putDouble(${input$NBTName}, ${input$NBTValue});

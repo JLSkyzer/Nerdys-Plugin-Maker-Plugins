@@ -1,0 +1,1 @@
+persistentData.putString(${input$NBTName}, ${input$NBTValue});

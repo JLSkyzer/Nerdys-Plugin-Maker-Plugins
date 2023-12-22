@@ -1,0 +1,18 @@
+DeleteFileAtPath
+0
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+Delete file at path %1
+0
+1
+0
+path
+Text
+6
+my/file/path.extension
+[VERSION] 1.16.5 Forge
+[VERSION] 1.20.1 Forge
+0
+0
+0

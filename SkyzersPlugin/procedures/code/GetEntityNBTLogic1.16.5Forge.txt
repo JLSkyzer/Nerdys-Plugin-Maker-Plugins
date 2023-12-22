@@ -1,0 +1,1 @@
+persistentData.getBoolean(${input$NBTName})

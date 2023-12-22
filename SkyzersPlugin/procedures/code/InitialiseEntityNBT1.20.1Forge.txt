@@ -1,0 +1,1 @@
+CompoundTag persistentData = entity.getPersistentData();

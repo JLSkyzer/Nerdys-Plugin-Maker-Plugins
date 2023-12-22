@@ -1,0 +1,22 @@
+new Object(){
+	private int getChunkX(int input){
+		int chunkX = (int) input;
+		// X
+		if (chunkX > 15){
+			chunkX = (int) Math.floor((double) chunkX / 16);
+		}else{
+			chunkX = 0;
+		}
+		if(chunkX < -15) {
+			if(chunkX >= 31){
+				chunkX = -2;
+			}else{
+				chunkX = (int) Math.floor((double) chunkX / 16);
+			}
+		}else if(chunkX < 0) {
+			chunkX = -1;
+		}
+
+		return chunkX;
+	}
+}.getChunkX(${input$input})

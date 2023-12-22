@@ -11,6 +11,7 @@ currBlock
 Block
 0
 [VERSION] 1.16.5 Forge
+[VERSION] 1.20.1 Forge
 1
 0
 0
