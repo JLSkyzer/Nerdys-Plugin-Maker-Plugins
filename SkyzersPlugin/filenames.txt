@@ -31,3 +31,6 @@ GetItemOfItem
 WaitXTickDoInServerSide
 GetSignLine
 getChunk
+GetRegion
+GetChunkPlayer
+GetRegionPlayer

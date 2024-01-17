@@ -1,0 +1,6 @@
+new Object(){
+	private String getRegionPlayer(){
+		ChunkPos chunkpos = Minecraft.getInstance().getCameraEntity().blockPosition();
+		return new String("r." + chunkpos.getRegionX() + "." + chunkpos.getRegionZ());
+	}
+}.getRegionPlayer()
