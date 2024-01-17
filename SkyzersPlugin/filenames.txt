@@ -34,3 +34,4 @@ getChunk
 GetRegion
 GetChunkPlayer
 GetRegionPlayer
+DeleteFolder

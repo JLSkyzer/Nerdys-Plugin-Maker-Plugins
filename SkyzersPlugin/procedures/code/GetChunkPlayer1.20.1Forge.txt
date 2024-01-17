@@ -1,6 +1,7 @@
 new Object(){
 	private String getChunkPlayer(){
-		ChunkPos chunkpos = Minecraft.getInstance().getCameraEntity().blockPosition();
+		BlockPos blockpos = Minecraft.getInstance().getCameraEntity().blockPosition();
+		ChunkPos chunkpos = new ChunkPos(blockpos);
 		return new String(chunkpos.getRegionLocalX() + "-" + chunkpos.getRegionLocalZ());
 	}
 }.getChunkPlayer()
