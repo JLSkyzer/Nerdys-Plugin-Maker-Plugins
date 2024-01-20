@@ -32,8 +32,8 @@ WaitXTickDoInServerSide
 GetSignLine
 getChunk
 GetRegion
-GetChunkPlayer
-GetRegionPlayer
 DeleteFolder
 ForEachFolder
 FolderIterratorGetName
+ReplaceAllChar
+ReplaceAllCharPointComma
