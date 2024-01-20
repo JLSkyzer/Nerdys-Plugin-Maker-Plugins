@@ -37,3 +37,4 @@ ForEachFolder
 FolderIterratorGetName
 ReplaceAllChar
 ReplaceAllCharPointComma
+getUUID
