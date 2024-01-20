@@ -1,4 +1,4 @@
-if (new java.io.File(new String(${input$path})).isDirectory() && new java.io.File(new String(${input$path})).exists()) {
+if (new java.io.File(new String(${input$path})).isDirectory()) {
 	// Récupérer la liste des fichiers et sous-dossiers dans le dossier
 	java.io.File[] fichiers = new java.io.File(new String(${input$path})).listFiles();
 	// Parcourir la liste et supprimer chaque fichier/dossier

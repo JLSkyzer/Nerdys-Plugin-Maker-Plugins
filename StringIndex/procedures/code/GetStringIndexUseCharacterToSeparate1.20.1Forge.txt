@@ -1,1 +1,7 @@
-((${input$text}).split(${input$char})[${input$index}])
+new Object(){
+	private String split(String text, String space, int index){
+		String s = text.split(space)[index];
+
+		return s;
+	}
+}.split(${input$text}, ${input$char}, (int) ${input$index})
