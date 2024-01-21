@@ -38,3 +38,4 @@ FolderIterratorGetName
 ReplaceAllChar
 ReplaceAllCharPointComma
 getUUID
+UUIDToDisplayName
