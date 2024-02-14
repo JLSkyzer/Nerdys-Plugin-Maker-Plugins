@@ -39,3 +39,8 @@ ReplaceAllChar
 ReplaceAllCharPointComma
 getUUID
 UUIDToDisplayName
+GetWindowHeight
+GetWindowsWidth
+GetGuiScale
+GetGuiScaleWidth
+GetGuiScaleHeight
