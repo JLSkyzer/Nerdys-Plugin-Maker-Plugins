@@ -4,4 +4,4 @@ new Object(){
 
 		return new String("r." + chunkpos.getRegionX() + "." + chunkpos.getRegionZ());
 	}
-}.getRegion((int) ${input$positionX}, (int) ${input$positionX})
+}.getRegion((int) ${input$positionX}, (int) ${input$positionZ})

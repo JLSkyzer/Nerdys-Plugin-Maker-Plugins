@@ -44,3 +44,7 @@ GetWindowsWidth
 GetGuiScale
 GetGuiScaleWidth
 GetGuiScaleHeight
+InitialiseComponentList
+AddStringToComponentList
+AddComponentListToItem
+ClearComponentList

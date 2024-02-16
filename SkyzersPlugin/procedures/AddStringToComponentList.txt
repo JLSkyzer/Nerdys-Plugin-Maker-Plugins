@@ -1,0 +1,17 @@
+AddStringToComponentList
+0
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+Add string %1 to component list
+0
+1
+0
+string
+Text
+6
+Lore text
+[VERSION] 1.20.1 Forge
+0
+0
+0
