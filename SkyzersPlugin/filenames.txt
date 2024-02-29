@@ -48,3 +48,5 @@ InitialiseComponentList
 AddStringToComponentList
 AddComponentListToItem
 ClearComponentList
+ShowTitleToPlayer
+ErilogInfo

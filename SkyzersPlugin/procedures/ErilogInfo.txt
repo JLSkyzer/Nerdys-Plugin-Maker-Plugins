@@ -1,0 +1,27 @@
+ErilogInfo
+0
+0.486275 0.054902 0.054902 1
+JLSkyzer Procedures [END]
+17
+Erilog - Log type %1 as logtype %2 with message %3
+0
+3
+0 3 0
+type
+Text
+6
+type
+logtype
+4
+info
+warn
+error
+success
+message
+Text
+6
+Message
+[VERSION] 1.20.1 Forge
+1
+0
+0
