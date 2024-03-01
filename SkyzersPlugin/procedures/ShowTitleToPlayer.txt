@@ -1,8 +1,8 @@
 ShowTitleToPlayer
 0
 0.486275 0.054902 0.054902 1
-JLSkyzer Procedures [END]
-17
+Base [END]
+22
 Show title to player %1 with : subtitle : %2, title : %6, fadeIn : %3, duration : %4 and fadeOut : %5
 0
 6
@@ -32,5 +32,6 @@ Text
 The title
 [VERSION] 1.20.1 Forge
 1
+0
 0
 0

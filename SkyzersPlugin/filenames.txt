@@ -50,3 +50,5 @@ AddComponentListToItem
 ClearComponentList
 ShowTitleToPlayer
 ErilogInfo
+Erilog
+Base

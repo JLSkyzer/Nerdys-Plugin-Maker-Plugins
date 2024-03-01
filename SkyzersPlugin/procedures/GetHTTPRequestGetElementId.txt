@@ -1,8 +1,8 @@
 GetHTTPRequestGetElementId
 1
 0.486275 0.054902 0.054902 1
-JLSkyzer Procedures [END]
-17
+Base [END]
+22
 Do an HTTP request to url %1 and get html element id %2
 6
 2
@@ -20,4 +20,5 @@ myElementID
 0
 1
 JsonForHTTPRequest
+0
 0

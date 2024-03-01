@@ -1,8 +1,8 @@
 FreezePlayer
 0
 0.486275 0.054902 0.054902 1
-JLSkyzer Procedures [END]
-17
+Base [END]
+22
 Freeze entity %1
 0
 1
@@ -11,6 +11,7 @@ entity
 Entity
 2
 [VERSION] 1.16.5 Forge
+0
 0
 0
 0

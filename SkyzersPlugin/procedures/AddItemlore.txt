@@ -1,8 +1,8 @@
 AddItemLore
 0
 0.486275 0.054902 0.054902 1
-Item procedures [END]
-7
+Base [END]
+22
 Add item lore to item %1 with lore %2
 0
 2
@@ -16,6 +16,7 @@ Text
 Lore
 [VERSION] 1.16.5 Forge
 [VERSION] 1.20.1 Forge
+0
 0
 0
 0
