@@ -1,0 +1,21 @@
+ErinonomyTakeToPlayer
+0
+0.0352941 0.780392 0.121569 1
+Ericonomy [END]
+23
+Ericonomy - Take %2$ to %1
+0
+2
+0 0
+entity
+Entity
+2
+amount
+Number
+5
+0
+[VERSION] 1.20.1 Forge
+1
+0
+0
+0

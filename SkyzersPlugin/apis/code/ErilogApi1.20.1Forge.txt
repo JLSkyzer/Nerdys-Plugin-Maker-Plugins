@@ -1,0 +1,9 @@
+dependencies {
+	classpath 'de.undercouch:gradle-download-task:5.6.0'
+
+    download.run {
+        src 'https://github.com/JLSkyzer/Erinium-Adventure-mods/releases/download/Erilog/Erilog.1.20.1-Dev.jar'
+        dest project.file('run/mods/')
+        overwrite true
+    }
+}
