@@ -2,7 +2,7 @@ ShowTitleToPlayer
 0
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 Show title to player %1 with : subtitle : %2, title : %6, fadeIn : %3, duration : %4 and fadeOut : %5
 0
 6

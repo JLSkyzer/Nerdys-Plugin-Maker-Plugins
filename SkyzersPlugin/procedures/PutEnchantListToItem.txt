@@ -1,20 +1,19 @@
-AddItemLore
+PutEnchantListToItem
 0
 0.486275 0.054902 0.054902 1
 Base [END]
 23
-Add item lore to item %1 with lore %2
+Put enchants list %2 to item %1
 0
 2
 0 0
 item
 Item
 3
-lore
+enchantList
 Text
 6
-Lore
-[VERSION] 1.16.5 Forge
+(Replace this block)
 [VERSION] 1.20.1 Forge
 0
 0

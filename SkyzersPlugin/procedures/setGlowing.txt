@@ -2,7 +2,7 @@ setGlowing
 0
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 Set glowing of entity %1 to %2
 0
 2

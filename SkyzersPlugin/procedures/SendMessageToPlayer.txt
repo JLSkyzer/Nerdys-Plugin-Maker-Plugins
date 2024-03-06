@@ -1,0 +1,25 @@
+SendMessageToPlayer
+0
+0.486275 0.054902 0.054902 1
+Base [END]
+23
+(Client side) Send message %1 to %2 show in action bar %3
+0
+3
+0 0 0
+message
+Text
+6
+text
+entity
+Entity
+2
+actionbar
+Boolean
+4
+1
+[VERSION] 1.20.1 Forge
+0
+0
+0
+0

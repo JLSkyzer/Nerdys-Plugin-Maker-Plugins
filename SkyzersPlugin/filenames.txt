@@ -57,3 +57,9 @@ EriconomyGiveToPlayer
 EriconomySetToPlayer
 ErinonomyTakeToPlayer
 EriconomyGetMoney
+testBlock
+LoreTextLineIterrator
+ItemLoreForEachLine
+GetItemEnchantList
+PutEnchantListToItem
+SendMessageToPlayer

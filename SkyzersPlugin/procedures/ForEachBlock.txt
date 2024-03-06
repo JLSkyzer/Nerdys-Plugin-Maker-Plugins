@@ -2,7 +2,7 @@ ForEachBlock
 0
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 For each block as %1 in a square cube sized %3 do %2
 0
 3

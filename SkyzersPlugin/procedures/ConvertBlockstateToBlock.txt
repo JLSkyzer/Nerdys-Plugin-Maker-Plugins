@@ -2,7 +2,7 @@ ConvertBlockstateToBlock
 1
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 Convert %1 to Block
 0
 1

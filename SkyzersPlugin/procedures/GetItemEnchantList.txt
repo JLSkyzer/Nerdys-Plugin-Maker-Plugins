@@ -1,11 +1,15 @@
-GetGuiScaleHeight
+GetItemEnchantList
 1
 0.486275 0.054902 0.054902 1
 Base [END]
 23
-Get GUI Scale Height (For Overlay)
-5
+Get item %1 enchants list as String
+6
+1
 0
+item
+Item
+3
 [VERSION] 1.20.1 Forge
 0
 0

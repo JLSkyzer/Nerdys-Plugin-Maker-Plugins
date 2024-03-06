@@ -2,7 +2,7 @@ GetSignLine
 1
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 Get line %1 of sign at position x: %2 y: %3 z: %4
 6
 4

@@ -2,7 +2,7 @@ GetEntityNBTLogic
 1
 0.376471 0.486275 0.6 1
 Base [END]
-22
+23
 Get entity persistent NBT Logic %1
 4
 1

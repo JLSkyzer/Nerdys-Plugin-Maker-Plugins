@@ -1,0 +1,19 @@
+ItemLoreForEachLine
+0
+0.486275 0.054902 0.054902 1
+Base [END]
+23
+For each line of item %1 lore as (Lore line iterrator) do %2
+0
+2
+0 5
+item
+Item
+3
+codeInput
+0
+[VERSION] 1.20.1 Forge
+0
+0
+0
+0

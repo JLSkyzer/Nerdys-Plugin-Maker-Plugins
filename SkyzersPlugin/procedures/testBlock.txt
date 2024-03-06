@@ -1,17 +1,13 @@
-AddComponentListToItem
+testBlock
 0
 0.486275 0.054902 0.054902 1
 Base [END]
 23
-Add component list to item %1
+This is a testblock
 0
-1
 0
-item
-Item
-3
 [VERSION] 1.20.1 Forge
-0
+1
 0
 0
 0

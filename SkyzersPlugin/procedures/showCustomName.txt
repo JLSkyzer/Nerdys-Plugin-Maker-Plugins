@@ -2,7 +2,7 @@ showCustomName
 0
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 Show custom name of entity %1 set to %2
 0
 2

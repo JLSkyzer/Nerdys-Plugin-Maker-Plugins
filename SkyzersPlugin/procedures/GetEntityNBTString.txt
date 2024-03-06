@@ -2,7 +2,7 @@ GetEntityNBTString
 1
 0.376471 0.6 0.52549 1
 Base [END]
-22
+23
 Get entity persistent NBT String %1
 6
 1

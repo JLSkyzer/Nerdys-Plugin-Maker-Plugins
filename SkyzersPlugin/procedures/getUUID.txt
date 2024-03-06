@@ -2,7 +2,7 @@ getUUID
 1
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 Get UUID of entity : %1
 6
 1

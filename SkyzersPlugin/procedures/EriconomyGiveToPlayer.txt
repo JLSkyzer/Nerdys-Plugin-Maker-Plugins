@@ -2,7 +2,7 @@ EriconomyGiveToPlayer
 0
 0.0352941 0.780392 0.121569 1
 Ericonomy [END]
-23
+24
 Ericonomy - Give %1$ to %2
 0
 2

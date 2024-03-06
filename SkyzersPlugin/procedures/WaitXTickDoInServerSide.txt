@@ -2,7 +2,7 @@ WaitXTickDoInServerSide
 0
 0.486275 0.054902 0.054902 1
 Base [END]
-22
+23
 (local variable) Wait %1 ticks and do in server-side %2
 0
 2

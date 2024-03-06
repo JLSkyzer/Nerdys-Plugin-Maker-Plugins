@@ -1,10 +1,10 @@
-GetGuiScaleHeight
+LoreTextLineIterrator
 1
 0.486275 0.054902 0.054902 1
 Base [END]
 23
-Get GUI Scale Height (For Overlay)
-5
+Lore line iterrator
+6
 0
 [VERSION] 1.20.1 Forge
 0
