@@ -1,28 +1,18 @@
 if (ModList.get().isLoaded("ericonomy")) {
 	// Procedure here
-	java.io.File eriFile = new java.io.File("");
-	com.google.gson.JsonObject eriJsonObject = new com.google.gson.JsonObject();
-	eriFile = new File((FMLPaths.GAMEDIR.get().toString() + "/Ericonomy/accounts/"), File.separator + (${input$entity}.getUUID().toString() + ".json"));
+	java.io.File file = new java.io.File("");
+	com.google.gson.JsonObject JsonObject = new com.google.gson.JsonObject();
+	file = new File((FMLPaths.GAMEDIR.get().toString() + "/Ericonomy/accounts/"), File.separator + (${input$entity}.getUUID().toString() + ".json"));
 	try {
-		BufferedReader bufferedReader = new BufferedReader(new FileReader(eriFile));
+		BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
 		StringBuilder jsonstringbuilder = new StringBuilder();
 		String line;
 		while ((line = bufferedReader.readLine()) != null) {
 			jsonstringbuilder.append(line);
 		}
 		bufferedReader.close();
-		eriJsonObject = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-		eriJsonObject.addProperty("money", (${input$amount}));
-		{
-			Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
-			try {
-				FileWriter fileWriter = new FileWriter(eriFile);
-				fileWriter.write(mainGSONBuilderVariable.toJson(eriJsonObject));
-				fileWriter.close();
-			} catch (IOException exception) {
-				exception.printStackTrace();
-			}
-		}
+		JsonObject = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+		JsonObject.addProperty("money", (double) fr.eriniumgroups.erinium.ericonomy.configuration.ServerConfigConfiguration.START_MONEY.get());
 	} catch (IOException e) {
 		e.printStackTrace();
 	}

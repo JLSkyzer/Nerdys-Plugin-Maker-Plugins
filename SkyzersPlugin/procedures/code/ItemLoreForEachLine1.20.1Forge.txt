@@ -1,4 +1,4 @@
-if (${input$item} != null){
+if (${input$item} != null && ${input$item}.getOrCreateTagElement("display").get("Lore") != null){
 	String result = ${input$item}.getOrCreateTagElement("display").get("Lore").toString();
 	result = result.replaceAll("'", "");
 

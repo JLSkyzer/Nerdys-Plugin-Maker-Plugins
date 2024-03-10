@@ -2,7 +2,7 @@ if (ModList.get().isLoaded("ericonomy")) {
 	// Procedure here
 	java.io.File eriFile = new java.io.File("");
 	com.google.gson.JsonObject eriJsonObject = new com.google.gson.JsonObject();
-	eriFile = new File((FMLPaths.GAMEDIR.get().toString() + "/Ericonomy/accounts/"), File.separator + (${input$entity}.getUUID().toString() + ".json"));
+	eriFile = new File((FMLPaths.GAMEDIR.get().toString() + "/Ericonomy/accounts/"), File.separator + (${input$entity} + ".json"));
 	try {
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(eriFile));
 		StringBuilder jsonstringbuilder = new StringBuilder();
@@ -12,7 +12,11 @@ if (ModList.get().isLoaded("ericonomy")) {
 		}
 		bufferedReader.close();
 		eriJsonObject = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-		eriJsonObject.addProperty("money", (eriJsonObject.get("money").getAsDouble() + ${input$amount}));
+		if (eriJsonObject.get("money").getAsDouble() >= ${input$amount}) {
+			eriJsonObject.addProperty("money", (eriJsonObject.get("money").getAsDouble() - ${input$amount}));
+		} else {
+			eriJsonObject.addProperty("money", 0);
+		}
 		{
 			Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 			try {

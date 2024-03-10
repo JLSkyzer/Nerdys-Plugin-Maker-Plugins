@@ -1,0 +1,22 @@
+EriconomyGiveToPlayerUUID
+0
+0.0352941 0.780392 0.121569 1
+Ericonomy [END]
+24
+Ericonomy - Give %1$ to %2
+0
+2
+0 0
+amount
+Number
+5
+0
+entity
+Text
+6
+UUID
+[VERSION] 1.20.1 Forge
+1
+0
+0
+0
