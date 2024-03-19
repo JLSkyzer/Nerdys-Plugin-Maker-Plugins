@@ -63,3 +63,6 @@ ItemLoreForEachLine
 GetItemEnchantList
 PutEnchantListToItem
 SendMessageToPlayer
+getDamageAfterArmorAbsorb
+getDamageAfterMagicAbsorb
+PlayHurtAnimationToEntity

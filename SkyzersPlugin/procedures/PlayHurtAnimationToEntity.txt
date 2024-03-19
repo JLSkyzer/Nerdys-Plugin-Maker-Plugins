@@ -1,0 +1,17 @@
+PlayHurtAnimationToEntity
+0
+0.486275 0.054902 0.054902 1
+Base [END]
+23
+Play hurt animation to entity %1
+0
+1
+0
+entity
+Entity
+2
+[VERSION] 1.20.1 Forge
+1
+0
+0
+0
