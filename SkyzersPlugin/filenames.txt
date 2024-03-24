@@ -12,7 +12,6 @@ BlockIterator
 ConvertBlockstateToBlock
 HasTileEntity
 GetHTTPRequestGetElementId
-JsonForHTTPRequest
 setNoGravity
 DeleteFileAtPath
 ForEachFile
@@ -66,3 +65,4 @@ SendMessageToPlayer
 getDamageAfterArmorAbsorb
 getDamageAfterMagicAbsorb
 PlayHurtAnimationToEntity
+Web Procedures

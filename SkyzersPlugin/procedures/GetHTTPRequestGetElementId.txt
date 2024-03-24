@@ -1,8 +1,8 @@
 GetHTTPRequestGetElementId
 1
-0.486275 0.054902 0.054902 1
-Base [END]
-23
+0.0392157 0.698039 0.639216 1
+Web Procedures [END]
+27
 Do an HTTP request to url %1 and get html element id %2
 6
 2
@@ -18,7 +18,6 @@ myElementID
 [VERSION] 1.16.5 Forge
 [VERSION] 1.20.1 Forge
 0
-1
-JsonForHTTPRequest
+0
 0
 0
