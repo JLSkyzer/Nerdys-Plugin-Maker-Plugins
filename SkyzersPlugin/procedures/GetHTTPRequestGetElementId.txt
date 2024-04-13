@@ -18,6 +18,7 @@ myElementID
 [VERSION] 1.16.5 Forge
 [VERSION] 1.20.1 Forge
 [VERSION] 1.20.4 Forge
+[VERSION] 1.20.4 NeoForge
 0
 0
 0

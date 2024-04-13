@@ -13,6 +13,7 @@ Text
 UUID
 [VERSION] 1.20.1 Forge
 [VERSION] 1.20.4 Forge
+[VERSION] 1.20.4 NeoForge
 1
 0
 0

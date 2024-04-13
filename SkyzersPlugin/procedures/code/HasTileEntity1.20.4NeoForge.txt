@@ -1,0 +1,1 @@
+${input$currBlock}.defaultBlockState().hasBlockEntity()

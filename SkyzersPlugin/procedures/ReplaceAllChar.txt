@@ -13,6 +13,7 @@ Text
 text
 [VERSION] 1.20.1 Forge
 [VERSION] 1.20.4 Forge
+[VERSION] 1.20.4 NeoForge
 0
 0
 0

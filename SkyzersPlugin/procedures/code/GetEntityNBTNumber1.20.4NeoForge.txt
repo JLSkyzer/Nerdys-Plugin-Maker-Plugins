@@ -1,0 +1,1 @@
+persistentData.getDouble(${input$NBTName})
