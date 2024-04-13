@@ -1,0 +1,1 @@
+persistentData = ${input$entity}.getPersistentData();

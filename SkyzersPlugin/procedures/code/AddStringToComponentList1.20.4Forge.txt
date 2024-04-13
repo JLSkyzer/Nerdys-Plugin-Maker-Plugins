@@ -1,0 +1,1 @@
+componentList.add(net.minecraft.network.chat.Component.literal(${input$string}));

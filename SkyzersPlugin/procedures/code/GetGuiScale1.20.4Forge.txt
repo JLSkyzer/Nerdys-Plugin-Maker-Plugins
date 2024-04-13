@@ -1,0 +1,1 @@
+net.minecraft.client.Minecraft.getInstance().options.guiScale().get()

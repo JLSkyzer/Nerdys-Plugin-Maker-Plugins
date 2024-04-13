@@ -12,6 +12,7 @@ Text
 6
 text
 [VERSION] 1.20.1 Forge
+[VERSION] 1.20.4 Forge
 0
 0
 0

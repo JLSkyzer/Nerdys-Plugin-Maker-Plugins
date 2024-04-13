@@ -15,6 +15,7 @@ Number
 5
 0
 [VERSION] 1.20.1 Forge
+[VERSION] 1.20.4 Forge
 1
 0
 0

@@ -1,0 +1,1 @@
+persistentData.putBoolean(${input$NBTName}, ${input$NBTValue});

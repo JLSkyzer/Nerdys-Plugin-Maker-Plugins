@@ -1,0 +1,1 @@
+${input$entity}.setGlowingTag(${input$condition});

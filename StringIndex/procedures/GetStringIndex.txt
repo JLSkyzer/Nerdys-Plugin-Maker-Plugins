@@ -26,6 +26,8 @@ value
 [VERSION] 1.20 Fabric
 [VERSION] 1.20.1 Forge
 [VERSION] 1.20.1 Fabric
+[VERSION] 1.20.4 Forge
+0
 0
 0
 0

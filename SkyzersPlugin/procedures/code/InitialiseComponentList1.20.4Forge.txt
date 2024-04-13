@@ -1,0 +1,1 @@
+java.util.List<net.minecraft.network.chat.Component> componentList = new java.util.ArrayList<>();

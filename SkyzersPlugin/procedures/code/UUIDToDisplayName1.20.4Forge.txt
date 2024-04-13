@@ -1,0 +1,1 @@
+Minecraft.getInstance().level.getPlayerByUUID(java.util.UUID.fromString(${input$uuid})).getName().getString()
