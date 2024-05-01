@@ -1,0 +1,38 @@
+{
+  "name": "SendMessageToPlayer",
+  "translation_key": "(Client side) Send message %1 to %2 show in action bar %3",
+  "type": 0,
+  "color": [
+    0.48627498745918274,
+    0.05490199849009514,
+    0.05490199849009514,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "message": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    },
+    "actionbar": {
+      "type": 0,
+      "variable_type": "Boolean",
+      "variable_index": 4,
+      "default_value": 1
+    }
+  }
+}

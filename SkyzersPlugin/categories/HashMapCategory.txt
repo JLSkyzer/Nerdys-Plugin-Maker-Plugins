@@ -1,0 +1,6 @@
+HashMapCategory
+0
+0.459707 0.906863 0.0622357 1
+1
+19
+JLSkyzer Procedures

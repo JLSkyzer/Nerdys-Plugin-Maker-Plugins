@@ -1,0 +1,25 @@
+{
+  "name": "getMinValue",
+  "translation_key": "Get minValue name in hashmap %1 (use erimap put)",
+  "type": 1,
+  "color": [
+    0.42352941632270813,
+    0.8823529481887817,
+    0.5176470875740051,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 6,
+  "versions": [
+    "1.20.4_NeoForge",
+    "1.20.1_Forge"
+  ],
+  "components": {
+    "mutator": {
+      "type": 5,
+      "disable_local_variables": false
+    }
+  }
+}

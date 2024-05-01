@@ -10,7 +10,7 @@ new Object(){
 			int responseCode = connection.getResponseCode();
 			if (responseCode == HttpURLConnection.HTTP_OK) {
 				// Créer un lecteur pour lire les données de la connexion
-				BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+				BufferedReader reader = new BufferedReader(new java.io.InputStreamReader(connection.getInputStream()));
 				StringBuilder stringBuilder = new StringBuilder();
 				String line;
 				// Lire le contenu de la page ligne par ligne

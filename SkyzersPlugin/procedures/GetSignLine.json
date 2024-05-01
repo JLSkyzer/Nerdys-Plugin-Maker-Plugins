@@ -1,0 +1,47 @@
+{
+  "name": "GetSignLine",
+  "translation_key": "Get line %1 of sign at position x: %2 y: %3 z: %4",
+  "type": 1,
+  "color": [
+    0.48627498745918274,
+    0.05490199849009514,
+    0.05490199849009514,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": true,
+  "type_index": 6,
+  "versions": [
+    "1.16.5_Forge",
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "line": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "posX": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "posY": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "posZ": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

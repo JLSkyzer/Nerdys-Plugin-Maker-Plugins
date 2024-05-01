@@ -1,0 +1,29 @@
+{
+  "name": "GetEntityNBTString",
+  "translation_key": "Get entity persistent NBT String %1",
+  "type": 1,
+  "color": [
+    0.37647101283073425,
+    0.6000000238418579,
+    0.5254899859428406,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": true,
+  "type_index": 6,
+  "versions": [
+    "1.16.5_Forge",
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "NBTName": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "NBTName"
+    }
+  }
+}

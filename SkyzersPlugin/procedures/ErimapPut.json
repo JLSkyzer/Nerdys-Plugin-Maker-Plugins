@@ -1,0 +1,32 @@
+{
+  "name": "ErimapPut",
+  "translation_key": "Erimap put %1 with value %2",
+  "type": 0,
+  "color": [
+    0.48627451062202454,
+    0.054901961237192154,
+    0.054901961237192154,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.20.4_NeoForge",
+    "1.20.1_Forge"
+  ],
+  "components": {
+    "Name": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "ValueName"
+    },
+    "Value": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

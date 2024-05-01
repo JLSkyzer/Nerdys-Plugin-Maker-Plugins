@@ -1,0 +1,28 @@
+{
+  "name": "getDamageAfterArmorAbsorb",
+  "translation_key": "getDamageAfterArmorAbsorb as getDamageSource Damage %1",
+  "type": 1,
+  "color": [
+    0.37647101283073425,
+    0.4117650091648102,
+    0.6000000238418579,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 5,
+  "versions": [
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "damage": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

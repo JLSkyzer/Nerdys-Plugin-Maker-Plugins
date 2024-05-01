@@ -1,0 +1,35 @@
+{
+  "name": "GetHTTPRequestGetElementId",
+  "translation_key": "Do an HTTP request to url %1 and get html element id %2",
+  "type": 1,
+  "color": [
+    0.03921569883823395,
+    0.6980389952659607,
+    0.6392160058021545,
+    1.0
+  ],
+  "category": "Web Procedures",
+  "category_index": 27,
+  "world_dependency": false,
+  "type_index": 6,
+  "versions": [
+    "1.16.5_Forge",
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "url": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "https://google.com"
+    },
+    "elementID": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "myElementID"
+    }
+  }
+}

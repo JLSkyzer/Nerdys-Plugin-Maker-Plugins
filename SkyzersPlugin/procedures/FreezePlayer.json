@@ -1,0 +1,24 @@
+{
+  "name": "FreezePlayer",
+  "translation_key": "Freeze entity %1",
+  "type": 0,
+  "color": [
+    0.48627498745918274,
+    0.05490199849009514,
+    0.05490199849009514,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.16.5_Forge"
+  ],
+  "components": {
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    }
+  }
+}

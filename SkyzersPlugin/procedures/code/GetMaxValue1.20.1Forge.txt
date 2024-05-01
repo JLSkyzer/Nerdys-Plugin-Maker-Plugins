@@ -1,0 +1,31 @@
+new Object(){
+    private String getMaxValue(){
+        Map<String, Integer> eriMap = new HashMap<>();
+
+        // Insert value
+        ${statement$mutator}
+        // End insert
+
+        if (!eriMap.isEmpty()) {
+            List<String> clesMax = new ArrayList<>();
+            int EriValeurMax = Integer.MIN_VALUE;
+
+            // Parcours de la HashMap pour trouver la valeur maximale et ses clés correspondantes
+            for (Map.Entry<String, Integer> entry : eriMap.entrySet()) {
+                if (entry.getValue() > EriValeurMax) {
+                    EriValeurMax = entry.getValue();
+                    clesMax.clear(); // Réinitialiser la liste des clés maximales
+                    clesMax.add(entry.getKey());
+                } else if (entry.getValue() == EriValeurMax) {
+                    clesMax.add(entry.getKey());
+                }
+            }
+
+            // Sélection aléatoire d'une clé parmi celles ayant la valeur maximale
+            Random random = new Random();
+            return clesMax.get(random.nextInt(clesMax.size()));
+        }
+        return null;
+    }
+
+}.getMaxValue()

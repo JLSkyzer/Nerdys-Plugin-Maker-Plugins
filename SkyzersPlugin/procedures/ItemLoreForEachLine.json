@@ -1,0 +1,30 @@
+{
+  "name": "ItemLoreForEachLine",
+  "translation_key": "For each line of item %1 lore as (Lore line iterrator) do %2",
+  "type": 0,
+  "color": [
+    0.48627498745918274,
+    0.05490199849009514,
+    0.05490199849009514,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "item": {
+      "type": 0,
+      "variable_type": "Item",
+      "variable_index": 3
+    },
+    "codeInput": {
+      "type": 5,
+      "disable_local_variables": false
+    }
+  }
+}

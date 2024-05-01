@@ -66,3 +66,7 @@ getDamageAfterArmorAbsorb
 getDamageAfterMagicAbsorb
 PlayHurtAnimationToEntity
 Web Procedures
+ErimapPut
+GetMaxValue
+getMinValue
+HashMapCategory

@@ -1,0 +1,32 @@
+{
+  "name": "ErinonomyTakeToPlayer",
+  "translation_key": "Ericonomy - Take %2$ to %1",
+  "type": 0,
+  "color": [
+    0.035294100642204285,
+    0.7803919911384583,
+    0.12156900018453598,
+    1.0
+  ],
+  "category": "Ericonomy",
+  "category_index": 24,
+  "world_dependency": true,
+  "versions": [
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    },
+    "amount": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

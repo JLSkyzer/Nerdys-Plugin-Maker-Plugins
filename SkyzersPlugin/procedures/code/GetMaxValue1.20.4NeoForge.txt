@@ -1,0 +1,32 @@
+new Object(){
+    private String getMinValue(){
+        Map<String, Integer> eriMap = new HashMap<>();
+
+        // Insert value
+        ${statement$mutator}
+        // End insert
+
+        if (!eriMap.isEmpty()) {
+            // Initialisation des variables pour la valeur minimale et son nom de clé
+            List<String> clesMin = new ArrayList<>();
+            int EriValeurMin = Integer.MAX_VALUE;
+
+            // Parcours de la HashMap pour trouver la valeur minimale et ses clés correspondantes
+            for (Map.Entry<String, Integer> entry : eriMap.entrySet()) {
+                if (entry.getValue() < EriValeurMin) {
+                    EriValeurMin = entry.getValue();
+                    clesMin.clear(); // Réinitialiser la liste des clés minimales
+                    clesMin.add(entry.getKey());
+                } else if (entry.getValue() == EriValeurMin) {
+                    clesMin.add(entry.getKey());
+                }
+            }
+
+            // Sélection aléatoire d'une clé parmi celles ayant la valeur minimale
+            Random random = new Random();
+            return clesMin.get(random.nextInt(clesMin.size()));
+        }
+        return null;
+    }
+
+}.getMinValue()

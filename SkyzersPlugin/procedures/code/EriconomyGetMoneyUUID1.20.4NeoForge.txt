@@ -14,7 +14,7 @@ new Object() {
 					jsonstringbuilder.append(line);
 				}
 				bufferedReader.close();
-				eriJsonObject = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+				eriJsonObject = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
 				// Retour
 				returnnbr = eriJsonObject.get("money").getAsDouble();
 			} catch (IOException e) {

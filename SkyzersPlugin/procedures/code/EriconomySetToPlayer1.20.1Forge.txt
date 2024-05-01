@@ -11,10 +11,10 @@ if (ModList.get().isLoaded("ericonomy")) {
 			jsonstringbuilder.append(line);
 		}
 		bufferedReader.close();
-		eriJsonObject = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+		eriJsonObject = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
 		eriJsonObject.addProperty("money", (${input$amount}));
 		{
-			Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
+			com.google.gson.Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 			try {
 				FileWriter fileWriter = new FileWriter(eriFile);
 				fileWriter.write(mainGSONBuilderVariable.toJson(eriJsonObject));

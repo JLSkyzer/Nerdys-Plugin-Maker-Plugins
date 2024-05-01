@@ -1,0 +1,51 @@
+{
+  "name": "GetStringIndexUseCharacterToSeparate",
+  "translation_key": "Get string index at index %1 from string %2 separate with character : %3",
+  "type": 1,
+  "color": [
+    0.035294100642204285,
+    0.3215689957141876,
+    0.6431369781494141,
+    1.0
+  ],
+  "category": "StringIndex",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 6,
+  "versions": [
+    "1.12.2_Forge",
+    "1.16.5_Forge",
+    "1.18.2_Forge",
+    "1.19.2_Forge",
+    "1.19.4_Forge",
+    "1.20_Forge",
+    "1.20.1_Forge",
+    "1.18.2_Fabric",
+    "1.19.2_Fabric",
+    "1.19.4_Fabric",
+    "1.20_Fabric",
+    "1.20.1_Fabric",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "index": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "text": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "char": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    }
+  }
+}

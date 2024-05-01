@@ -1,0 +1,37 @@
+{
+  "name": "ForEachBlock",
+  "translation_key": "For each block as %1 in a square cube sized %3 do %2",
+  "type": 0,
+  "color": [
+    0.48627498745918274,
+    0.05490199849009514,
+    0.05490199849009514,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": true,
+  "versions": [
+    "1.16.5_Forge",
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.20.4_NeoForge"
+  ],
+  "components": {
+    "blockIterrator": {
+      "type": 0,
+      "variable_type": "Block",
+      "variable_index": 0
+    },
+    "boucle": {
+      "type": 5,
+      "disable_local_variables": false
+    },
+    "size": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}
