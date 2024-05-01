@@ -8,8 +8,8 @@
     0.054901961237192154,
     1.0
   ],
-  "category": "Base",
-  "category_index": 23,
+  "category": "HashMapCategory",
+  "category_index": 28,
   "world_dependency": false,
   "versions": [
     "1.20.4_NeoForge",
