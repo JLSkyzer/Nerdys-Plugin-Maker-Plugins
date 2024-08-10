@@ -26,7 +26,8 @@
     "1.20_Fabric",
     "1.20.1_Fabric",
     "1.20.4_Forge",
-    "1.20.4_NeoForge"
+    "1.20.4_NeoForge",
+    "1.20.6_NeoForge"
   ],
   "components": {
     "index": {

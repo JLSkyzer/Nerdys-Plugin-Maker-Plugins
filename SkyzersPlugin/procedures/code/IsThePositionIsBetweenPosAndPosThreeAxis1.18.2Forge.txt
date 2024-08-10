@@ -1,0 +1,19 @@
+new Object(){
+    // Fonction qui vérifie si le joueur est dans la zone 3D
+    public boolean isPlayerWithinBounds(double playerX, double playerY, double playerZ,
+                                               double x1, double y1, double z1,
+                                               double x2, double y2, double z2) {
+        // Détermine les limites minimales et maximales des axes X, Y, et Z
+        double minX = Math.min(x1, x2);
+        double maxX = Math.max(x1, x2);
+        double minY = Math.min(y1, y2);
+        double maxY = Math.max(y1, y2);
+        double minZ = Math.min(z1, z2);
+        double maxZ = Math.max(z1, z2);
+
+        // Vérifie si la position du joueur est dans les limites
+        return (playerX >= minX && playerX <= maxX) &&
+                (playerY >= minY && playerY <= maxY) &&
+                (playerZ >= minZ && playerZ <= maxZ);
+    }
+}.isPlayerWithinBounds((Double) ${input$x}, (Double) ${input$y}, (Double) ${input$z}, (Double) ${input$x1}, (Double) ${input$y1}, (Double) ${input$z1}, (Double) ${input$x2}, (Double) ${input$y2}, (Double) ${input$z2})

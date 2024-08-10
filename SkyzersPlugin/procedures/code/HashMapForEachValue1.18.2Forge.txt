@@ -1,0 +1,21 @@
+{
+    int baseIndex = (int) ${input$startindex};
+    int index = 0;
+    int repeat = (int) ${input$repeat};
+
+    for (Map.Entry<String, Double> stringDoubleEntry : ${input$HashMap}.entrySet()) {
+        if (index < baseIndex){
+            index++;
+        }else{
+            if (repeat > 0){
+                /* ACTION */
+                ${statement$execution}
+                /* END ACTION */
+                index++;
+                repeat--;
+            }else{
+                break;
+            }
+        }
+    }
+}

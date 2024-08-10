@@ -1,0 +1,6 @@
+EriArrayList
+0
+0.145134 0.769608 0.0113178 1
+0
+0
+Block procedures

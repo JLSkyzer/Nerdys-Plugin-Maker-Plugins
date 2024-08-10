@@ -1,0 +1,30 @@
+{
+  "name": "vectorEntityByHisRotation",
+  "translation_key": "Move entity %1 by his direction with delta V %2",
+  "type": 0,
+  "color": [
+    0.01074107177555561,
+    0.3070681095123291,
+    0.7303921580314636,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    },
+    "deltaV": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

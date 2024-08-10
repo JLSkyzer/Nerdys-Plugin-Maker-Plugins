@@ -1,0 +1,11 @@
+{
+	double yawRadians = java.lang.Math.toRadians(${input$entity}.getYRot()); // Angle horizontal (yaw) du joueur en radians
+	// Calcul des composantes du vecteur de direction dans le plan horizontal (XZ)
+	double directionX = -java.lang.Math.sin(yawRadians); // Composante X du vecteur de direction
+	double directionZ = java.lang.Math.cos(yawRadians); // Composante Z du vecteur de direction
+	double speed = ${input$deltaV}; // Vitesse de déplacement (ajustez selon vos besoins)
+	// Calcul du déplacement dans le plan horizontal (XZ) en fonction de la direction du joueur
+	double deltaX = directionX * speed;
+	double deltaZ = directionZ * speed;
+	${input$entity}.setDeltaMovement(deltaX, 0, deltaZ);
+}

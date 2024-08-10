@@ -1,0 +1,14 @@
+{
+  "name": "EriStringArray",
+  "color": [
+    0.041810840368270874,
+    0.7107843160629272,
+    0.10083779692649841
+  ],
+  "versions": {
+    "1.18.2_Forge": {
+      "class": "java.util.ArrayList<String>",
+      "default_value": "new ArrayList<String>()"
+    }
+  }
+}

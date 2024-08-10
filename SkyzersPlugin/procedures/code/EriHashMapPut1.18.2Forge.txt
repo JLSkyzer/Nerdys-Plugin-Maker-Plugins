@@ -1,0 +1,1 @@
+${input$hashmap}.put(${input$key}, (Double) ${input$value});

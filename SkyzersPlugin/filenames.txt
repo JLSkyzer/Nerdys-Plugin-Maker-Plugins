@@ -1,6 +1,5 @@
 GetItemById
 AddItemLore
-JLSkyzer Procedures
 setInvulnerability
 setGlowing
 setCustomName
@@ -70,3 +69,26 @@ ErimapPut
 GetMaxValue
 getMinValue
 HashMapCategory
+EriHashMapNumber
+HashMapNumberGet
+EriHashMapPut
+HashMapClear
+EntryIterratorGetKey
+EntryIterratorGetValue
+HashMapForEachValue
+getDirectionFromPosToPos
+getDistanceFromPosToPos
+vectorEntityByHisRotation
+IsThePositionIsBetweenPosAndPos2Axis
+IsThePositionIsBetweenPosAndPos3Axis
+EriStringArray
+EriStringArrayAdd
+EriStringArraySet
+EriArrayList
+EriStringArrayRemove
+EriStringArrayClear
+EriStringArrayAddAll
+split
+EriStringArrayForEach
+stringIterator
+index

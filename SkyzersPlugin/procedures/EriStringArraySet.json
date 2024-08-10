@@ -1,0 +1,36 @@
+{
+  "name": "EriStringArraySet",
+  "translation_key": "Set %1 at index %2 to String Arraylist %3",
+  "type": 0,
+  "color": [
+    0.21355760097503662,
+    0.8284313678741455,
+    0.024365652352571487,
+    1.0
+  ],
+  "category": "EriArrayList",
+  "category_index": 28,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "string": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "index": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "Array": {
+      "type": 0,
+      "variable_type": "EriStringArray",
+      "variable_index": 9
+    }
+  }
+}

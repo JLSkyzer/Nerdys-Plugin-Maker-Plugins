@@ -1,0 +1,30 @@
+{
+  "name": "EriStringArrayRemove",
+  "translation_key": "Remove at index %1 on String ArrayList %2",
+  "type": 0,
+  "color": [
+    0.07811758667230606,
+    0.7401961088180542,
+    0.058054592460393906,
+    1.0
+  ],
+  "category": "EriArrayList",
+  "category_index": 28,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "index": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "array": {
+      "type": 0,
+      "variable_type": "EriStringArray",
+      "variable_index": 9
+    }
+  }
+}

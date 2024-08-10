@@ -1,0 +1,40 @@
+{
+  "name": "HashMapForEachValue",
+  "translation_key": "For each <Key, Value> on map %1 start index %2 repeat %3 times (use EntryIterrator) %4",
+  "type": 0,
+  "color": [
+    0.08165411651134491,
+    0.5686274766921997,
+    0.06689734756946564,
+    1.0
+  ],
+  "category": "HashMapCategory",
+  "category_index": 26,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "HashMap": {
+      "type": 0,
+      "variable_type": "EriHashMapNumber",
+      "variable_index": 8
+    },
+    "startindex": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "repeat": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "execution": {
+      "type": 5,
+      "disable_local_variables": false
+    }
+  }
+}

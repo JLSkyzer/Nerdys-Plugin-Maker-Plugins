@@ -1,0 +1,31 @@
+{
+  "name": "HashMapNumberGet",
+  "translation_key": "Get entry value %2 on the Map %1",
+  "type": 1,
+  "color": [
+    0.16986677050590515,
+    0.5686274766921997,
+    0.14494425058364868,
+    1.0
+  ],
+  "category": "HashMapCategory",
+  "category_index": 26,
+  "world_dependency": false,
+  "type_index": 5,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "HashMap": {
+      "type": 0,
+      "variable_type": "EriHashMapNumber",
+      "variable_index": 8
+    },
+    "valueName": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "entryname"
+    }
+  }
+}

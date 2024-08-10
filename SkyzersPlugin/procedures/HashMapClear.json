@@ -1,0 +1,24 @@
+{
+  "name": "HashMapClear",
+  "translation_key": "Clear hashmap %1",
+  "type": 0,
+  "color": [
+    0.07468281686306,
+    0.5441176891326904,
+    0.07468281686306,
+    1.0
+  ],
+  "category": "HashMapCategory",
+  "category_index": 26,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "map": {
+      "type": 0,
+      "variable_type": "EriHashMapNumber",
+      "variable_index": 8
+    }
+  }
+}
