@@ -93,3 +93,5 @@ EriStringArrayForEach
 stringIterator
 index
 StringVarSet
+EriObject
+Object
