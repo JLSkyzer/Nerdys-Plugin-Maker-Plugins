@@ -1,0 +1,31 @@
+{
+  "name": "EriniumRankHasPerm",
+  "translation_key": "Erinium Rank - Entity %1 have permission %2",
+  "type": 1,
+  "color": [
+    0.7409806251525879,
+    0.7696078419685364,
+    0.28294405341148376,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 4,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    },
+    "permission": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    }
+  }
+}

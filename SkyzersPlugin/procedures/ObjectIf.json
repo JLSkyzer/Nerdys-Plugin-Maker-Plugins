@@ -1,0 +1,28 @@
+{
+  "name": "ObjectIf",
+  "translation_key": "if %1 %2",
+  "type": 0,
+  "color": [
+    0.4470588266849518,
+    0.09803921729326248,
+    0.3843137323856354,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 29,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "Object": {
+      "type": 0,
+      "variable_type": "EriObject",
+      "variable_index": 10
+    },
+    "executor": {
+      "type": 5,
+      "disable_local_variables": false
+    }
+  }
+}
