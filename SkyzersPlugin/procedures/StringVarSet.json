@@ -1,0 +1,29 @@
+{
+  "name": "StringVarSet",
+  "translation_key": "Set string variable %1 to value %2",
+  "type": 0,
+  "color": [
+    0.30344098806381226,
+    0.5833333730697632,
+    0.2173202633857727,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "varname": {
+      "type": 1,
+      "field_content": "myVarName"
+    },
+    "value": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "value"
+    }
+  }
+}

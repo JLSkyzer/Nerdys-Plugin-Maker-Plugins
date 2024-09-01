@@ -92,3 +92,4 @@ split
 EriStringArrayForEach
 stringIterator
 index
+StringVarSet
