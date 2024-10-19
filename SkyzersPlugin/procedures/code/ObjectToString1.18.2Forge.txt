@@ -1,1 +1,1 @@
-${input$string}
+(String) ${input$string}

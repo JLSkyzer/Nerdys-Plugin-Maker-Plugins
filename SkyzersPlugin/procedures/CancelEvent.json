@@ -1,0 +1,17 @@
+{
+  "name": "CancelEvent",
+  "translation_key": "Cancel event (if possible)",
+  "type": 0,
+  "color": [
+    0.6566336750984192,
+    0.3532295227050781,
+    0.7352941036224365,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 28,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ]
+}

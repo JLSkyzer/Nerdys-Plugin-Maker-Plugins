@@ -1,1 +1,1 @@
-${input$Object}
+(Block) ${input$Object}

@@ -1,1 +1,1 @@
-${input$Object}
+(Boolean) ${input$Object}

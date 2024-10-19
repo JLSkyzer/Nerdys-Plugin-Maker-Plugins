@@ -1,1 +1,1 @@
-${input$Object}
+(Direction) ${input$Object}

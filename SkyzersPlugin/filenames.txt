@@ -110,3 +110,17 @@ ObjectToItem
 ObjectToBlock
 ObjectEqual
 ObjectIf
+DeclareObjectVariable
+ObjectVariableSet
+double
+int
+ObjectVariableGet
+null
+CancelEvent
+EntityToObject
+ObjectToEntityFix
+CreateObjectArrayList
+ObjectArraylistAdd
+ObjectArraylistClear
+minimapCache
+BufferedImage

@@ -1,1 +1,1 @@
-${input$Object}
+(ItemStack) ${input$Object}

@@ -1,0 +1,25 @@
+{
+  "name": "DeclareObjectVariable",
+  "translation_key": "Déclare new variable %1",
+  "type": 0,
+  "color": [
+    0.4772211015224457,
+    0.11185602098703384,
+    0.6519607901573181,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 28,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "name": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "name"
+    }
+  }
+}

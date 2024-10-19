@@ -1,0 +1,14 @@
+{
+  "name": "BufferedImage",
+  "color": [
+    0.4129478633403778,
+    0.048106517642736435,
+    0.7009804248809814
+  ],
+  "versions": {
+    "1.18.2_Forge": {
+      "class": "java.awt.image.BufferedImage",
+      "default_value": "new java.awt.image.BufferedImage(30000, 30000, java.awt.image.BufferedImage.TYPE_INT_ARGB)"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ObjectVariableSet",
+  "translation_key": "Set variable %1 to %2",
+  "type": 0,
+  "color": [
+    0.47843137383461,
+    0.11372549086809158,
+    0.6509804129600525,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 28,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "name": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "name"
+    },
+    "object": {
+      "type": 0,
+      "variable_type": "EriObject",
+      "variable_index": 9
+    }
+  }
+}
