@@ -1,0 +1,6 @@
+EriMap
+erimap
+1.0
+JLSkyzer
+A plugin to create hashmap
+Made with MCreator plugin builder by NerdyPuzzle

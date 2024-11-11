@@ -1,0 +1,30 @@
+{
+  "name": "erimapvar",
+  "color": [
+    0.0499807633459568,
+    0.5035394430160522,
+    0.7843137383460999
+  ],
+  "versions": {
+    "1.18.2_Forge": {
+      "class": "java.util.Map<Object,Object>",
+      "default_value": "new HashMap<Object, Object>()"
+    },
+    "1.19.2_Forge": {
+      "class": "java.util.Map<Object,Object>",
+      "default_value": "new HashMap<Object, Object>()"
+    },
+    "1.16.5_Forge": {
+      "class": "java.util.Map<Object,Object>",
+      "default_value": "new HashMap<Object, Object>()"
+    },
+    "1.20.1_Forge": {
+      "class": "java.util.Map<Object,Object>",
+      "default_value": "new HashMap<Object, Object>()"
+    },
+    "1.21.1_NeoForge": {
+      "class": "java.util.Map<Object,Object>",
+      "default_value": "new HashMap<Object, Object>()"
+    }
+  }
+}
