@@ -1,0 +1,30 @@
+{
+  "name": "NumberToObject",
+  "translation_key": "Number to Object %1",
+  "type": 1,
+  "color": [
+    0.003921568859368563,
+    0.6078431606292725,
+    0.9372549057006836,
+    1.0
+  ],
+  "category": "EriMap",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 8,
+  "versions": [
+    "1.18.2_Forge",
+    "1.19.2_Forge",
+    "1.16.5_Forge",
+    "1.20.1_Forge",
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "number": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

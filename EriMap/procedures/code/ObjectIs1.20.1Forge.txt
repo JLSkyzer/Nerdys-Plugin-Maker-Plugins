@@ -1,0 +1,8 @@
+new Object(){
+	private Boolean isValue(Object obj){
+		if (obj instanceof ${field$type}){
+			return true;
+		}
+		return false;
+	}
+}.isValue(${input$obj})

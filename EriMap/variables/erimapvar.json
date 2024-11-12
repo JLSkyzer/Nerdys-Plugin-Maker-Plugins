@@ -7,24 +7,24 @@
   ],
   "versions": {
     "1.18.2_Forge": {
-      "class": "java.util.Map<Object,Object>",
-      "default_value": "new HashMap<Object, Object>()"
+      "class": "java.util.Map<String,Object>",
+      "default_value": "new HashMap<String, Object>()"
     },
     "1.19.2_Forge": {
-      "class": "java.util.Map<Object,Object>",
-      "default_value": "new HashMap<Object, Object>()"
+      "class": "java.util.Map<String,Object>",
+      "default_value": "new HashMap<String, Object>()"
     },
     "1.16.5_Forge": {
-      "class": "java.util.Map<Object,Object>",
-      "default_value": "new HashMap<Object, Object>()"
+      "class": "java.util.Map<String,Object>",
+      "default_value": "new HashMap<String, Object>()"
     },
     "1.20.1_Forge": {
-      "class": "java.util.Map<Object,Object>",
-      "default_value": "new HashMap<Object, Object>()"
+      "class": "java.util.Map<String,Object>",
+      "default_value": "new HashMap<String, Object>()"
     },
     "1.21.1_NeoForge": {
-      "class": "java.util.Map<Object,Object>",
-      "default_value": "new HashMap<Object, Object>()"
+      "class": "java.util.Map<String,Object>",
+      "default_value": "new HashMap<String, Object>()"
     }
   }
 }

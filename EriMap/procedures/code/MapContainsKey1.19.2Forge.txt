@@ -1,0 +1,1 @@
+${input$map}.containsKey(${input$key})

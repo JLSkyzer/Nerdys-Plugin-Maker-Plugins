@@ -1,0 +1,8 @@
+new Object(){
+	private Boolean returnvalue(Object obj){
+		if (obj instanceof Boolean){
+			return (Boolean) obj;
+		}
+		return false;
+	}
+}.returnvalue(${input$obj})

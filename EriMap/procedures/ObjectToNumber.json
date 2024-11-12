@@ -1,0 +1,29 @@
+{
+  "name": "ObjectToNumber",
+  "translation_key": "%1",
+  "type": 1,
+  "color": [
+    0.3764705955982208,
+    0.4117647111415863,
+    0.6000000238418579,
+    1.0
+  ],
+  "category": "EriMap",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 5,
+  "versions": [
+    "1.18.2_Forge",
+    "1.19.2_Forge",
+    "1.16.5_Forge",
+    "1.20.1_Forge",
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "obj": {
+      "type": 0,
+      "variable_type": "erimapvar",
+      "variable_index": 8
+    }
+  }
+}
