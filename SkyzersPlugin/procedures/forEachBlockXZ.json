@@ -1,0 +1,53 @@
+{
+  "name": "forEachBlockXZ",
+  "translation_key": "For each POS from x %1 z %2 to x %3 z %4 start at y %5 do %6 (use ForX, Y, Z)",
+  "type": 0,
+  "color": [
+    0.48627451062202454,
+    0.054901961237192154,
+    0.054901961237192154,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": true,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "startX": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "startZ": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "endX": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "endZ": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "forY": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "executor": {
+      "type": 5,
+      "disable_local_variables": false
+    }
+  }
+}

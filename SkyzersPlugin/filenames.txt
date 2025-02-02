@@ -124,3 +124,8 @@ ObjectArraylistAdd
 ObjectArraylistClear
 minimapCache
 BufferedImage
+forEachBlockXZ
+forX
+forY
+forZ
+ChunkDivider

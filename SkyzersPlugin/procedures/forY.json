@@ -1,0 +1,18 @@
+{
+  "name": "forY",
+  "translation_key": "ForY",
+  "type": 1,
+  "color": [
+    0.3764705955982208,
+    0.4117647111415863,
+    0.6000000238418579,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 5,
+  "versions": [
+    "1.18.2_Forge"
+  ]
+}

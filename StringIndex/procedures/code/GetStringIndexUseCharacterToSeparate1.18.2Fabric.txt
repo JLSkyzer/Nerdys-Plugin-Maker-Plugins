@@ -1,1 +1,12 @@
-((${input$text}).split(${input$char})[${input$index}])
+new Object(){
+	private String returnValue(String string, int Index, String sep){
+		try {
+			return ((string).split(sep)[Index]);
+			// Utilisez account ici
+		} catch (ArrayIndexOutOfBoundsException e) {
+			// Gérer l'erreur ici, par exemple :
+			System.out.println("Valeur null !");
+			return "";
+		}
+	}
+}.returnValue(${input$text}, ${input$index}, ${input$char})

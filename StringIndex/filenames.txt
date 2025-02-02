@@ -1,3 +1,4 @@
 StringIndex
 GetStringIndex
 GetStringIndexUseCharacterToSeparate
+GetSizeOfStringBySeparator

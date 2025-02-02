@@ -1,0 +1,46 @@
+{
+  "name": "GetSizeOfStringBySeparator",
+  "translation_key": "Get length of the String %1 with separator %2 (return number)",
+  "type": 1,
+  "color": [
+    0.03529411926865578,
+    0.32156863808631897,
+    0.6431372761726379,
+    1.0
+  ],
+  "category": "StringIndex",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 5,
+  "versions": [
+    "1.12.2_Forge",
+    "1.16.5_Forge",
+    "1.18.2_Forge",
+    "1.19.2_Forge",
+    "1.19.4_Forge",
+    "1.20_Forge",
+    "1.20.1_Forge",
+    "1.20.4_Forge",
+    "1.18.2_Fabric",
+    "1.19.2_Fabric",
+    "1.19.4_Fabric",
+    "1.20_Fabric",
+    "1.20.4_NeoForge",
+    "1.20.6_NeoForge",
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "text": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "sep": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    }
+  }
+}

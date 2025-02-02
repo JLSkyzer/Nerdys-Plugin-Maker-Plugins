@@ -1,0 +1,26 @@
+new Object(){
+    private String findPieceForPosition(int chunkWidth, int chunkHeight, int numberOfPieces, int x, int z) {
+        // Calcul des dimensions de chaque morceau
+        double pieceWidth = (double) chunkWidth / Math.sqrt(numberOfPieces);
+        double pieceHeight = (double) chunkHeight / Math.sqrt(numberOfPieces);
+
+        // Vérification si la division est possible
+        if (pieceWidth <= 0 || pieceHeight <= 0) {
+            return "Impossible de diviser avec les dimensions fournies.";
+        }
+
+        // Calculer la position du morceau
+        int col = (int) (x / pieceWidth);
+        int row = (int) (z / pieceHeight);
+
+        // Vérification si la position est valide
+        if (col >= Math.sqrt(numberOfPieces) || row >= Math.sqrt(numberOfPieces)) {
+            return "Position hors des limites de la région.";
+        }
+
+        // Calculer l'index du morceau
+        int pieceIndex = row * (int) Math.sqrt(numberOfPieces) + col + 1;
+
+        return new String("group-" + pieceIndex);
+    }
+}.findPieceForPosition(${input$chunkWidth}, ${input$chunkHeight}, ${input$numberOfPieces}, ${input$posx}, ${input$posz})

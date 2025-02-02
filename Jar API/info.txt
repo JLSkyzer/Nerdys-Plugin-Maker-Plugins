@@ -1,0 +1,6 @@
+Jar API
+jarapi
+1.0
+JLSkyzer
+Unknown
+Made with MCreator plugin builder by NerdyPuzzle

@@ -1,0 +1,50 @@
+{
+  "name": "ChunkDivider",
+  "translation_key": "Make a chunk with size %1 %2 cuted in %3 parts get the part from the pos %4 %5 (return parts number)",
+  "type": 1,
+  "color": [
+    0.3764705955982208,
+    0.6000000238418579,
+    0.5254902243614197,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 6,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "chunkWidth": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "chunkHeight": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "numberOfPieces": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "posx": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "posz": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}
