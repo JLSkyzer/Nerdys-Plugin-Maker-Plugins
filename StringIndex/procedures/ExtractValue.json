@@ -1,0 +1,44 @@
+{
+  "name": "ExtractValue",
+  "translation_key": "Extract value %1 from text %2 with separator for value %3 and separator for object %4",
+  "type": 1,
+  "color": [
+    0.03529411926865578,
+    0.32156863808631897,
+    0.6431372761726379,
+    1.0
+  ],
+  "category": "StringIndex",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 6,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "text": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "key": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "valuesep": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "objectsep": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    }
+  }
+}

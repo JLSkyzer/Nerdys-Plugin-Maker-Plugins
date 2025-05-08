@@ -1,0 +1,17 @@
+new Object(){
+    private String extraireValeur(String texte, String cle, String separateurValeur, String separateurObjet) {
+        if (!texte.contains(separateurValeur) || !texte.contains(separateurObjet)) {
+            return "null"; // Séparateurs manquants
+        }
+
+        String[] objets = texte.split("\\s*" + Pattern.quote(separateurObjet) + "\\s*");
+        for (String objet : objets) {
+            String[] parts = objet.split(Pattern.quote(separateurValeur), 2);
+            if (parts.length == 2 && parts[0].trim().equals(cle)) {
+                return parts[1].trim();
+            }
+        }
+
+        return "null"; // Clé pas trouvée
+    }
+}.extraireValeur(${input$text}, ${input$key}, ${input$valuesep}, ${input$objectsep})

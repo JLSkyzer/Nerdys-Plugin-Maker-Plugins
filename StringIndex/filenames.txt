@@ -2,3 +2,5 @@ StringIndex
 GetStringIndex
 GetStringIndexUseCharacterToSeparate
 GetSizeOfStringBySeparator
+ExtractValue
+GetOutput
