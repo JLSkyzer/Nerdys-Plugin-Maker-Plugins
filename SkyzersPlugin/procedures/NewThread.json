@@ -1,0 +1,23 @@
+{
+  "name": "NewThread",
+  "translation_key": "Execute In a new Thread %1 (Interract with minecraft with \"execute in main thread\")",
+  "type": 0,
+  "color": [
+    0.026336023584008217,
+    0.4058845043182373,
+    0.6715686321258545,
+    1.0
+  ],
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "executor": {
+      "type": 5,
+      "disable_local_variables": false
+    }
+  }
+}
