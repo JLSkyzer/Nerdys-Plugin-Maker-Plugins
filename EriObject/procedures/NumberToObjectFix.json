@@ -1,22 +1,22 @@
 {
-  "name": "int",
-  "translation_key": "int %1",
+  "name": "NumberToObjectFix",
+  "translation_key": "Object number %1",
   "type": 1,
   "color": [
-    0.3764705955982208,
-    0.4117647111415863,
-    0.6000000238418579,
+    0.4470588266849518,
+    0.09803921729326248,
+    0.3843137323856354,
     1.0
   ],
-  "category": "Math",
-  "category_index": 17,
+  "category": "Object",
+  "category_index": 23,
   "world_dependency": false,
-  "type_index": 5,
+  "type_index": 8,
   "versions": [
     "1.18.2_Forge"
   ],
   "components": {
-    "number": {
+    "Number": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,

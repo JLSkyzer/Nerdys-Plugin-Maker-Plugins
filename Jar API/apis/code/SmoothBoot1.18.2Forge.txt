@@ -1,0 +1,12 @@
+repositories {
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
+
+dependencies {
+    implementation fg.deobf("curse.maven:smooth-boot-reloaded-633412:5016275")
+}

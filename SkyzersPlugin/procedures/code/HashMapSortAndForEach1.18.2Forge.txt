@@ -1,0 +1,13 @@
+{
+	// On crée une liste des entrées de la map
+	List<Map.Entry<String, Double>> entries = new ArrayList<>(${input$hashmap}.entrySet());
+
+	// On trie la liste par valeur croissante
+	entries.sort(Map.Entry.comparingByValue());
+
+	// Affiche le résultat trié
+	for (Map.Entry<String, Double> stringDoubleEntry : entries) {
+		// Executor... stringDoubleEntry.getKey() (String) and stringDoubleEntry.getValue() (Double)
+		${statement$executor}
+	}
+}

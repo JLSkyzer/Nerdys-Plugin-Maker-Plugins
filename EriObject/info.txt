@@ -1,0 +1,6 @@
+EriObject
+eriobject
+1.0
+JLSkyzer
+Manipulate object
+Made with MCreator plugin builder by NerdyPuzzle

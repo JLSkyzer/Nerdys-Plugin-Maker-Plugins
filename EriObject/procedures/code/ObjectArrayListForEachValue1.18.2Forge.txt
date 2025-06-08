@@ -1,0 +1,4 @@
+for (Object objectListener : obj){
+	// Execution use objectListener to get the value
+	${statement$executor}
+}

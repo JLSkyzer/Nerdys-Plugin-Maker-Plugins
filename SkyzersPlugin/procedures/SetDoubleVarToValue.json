@@ -1,22 +1,25 @@
 {
-  "name": "int",
-  "translation_key": "int %1",
-  "type": 1,
+  "name": "SetDoubleVarToValue",
+  "translation_key": "Set Double var %1 to value %2",
+  "type": 0,
   "color": [
     0.3764705955982208,
     0.4117647111415863,
     0.6000000238418579,
     1.0
   ],
-  "category": "Math",
-  "category_index": 17,
+  "category": "Flow control",
+  "category_index": 15,
   "world_dependency": false,
-  "type_index": 5,
   "versions": [
     "1.18.2_Forge"
   ],
   "components": {
-    "number": {
+    "varname": {
+      "type": 1,
+      "field_content": "varname"
+    },
+    "varvalue": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,

@@ -1,11 +1,11 @@
 {
-  "name": "HashMapClear",
-  "translation_key": "Clear hashmap %1",
+  "name": "HashMapSortAndForEach",
+  "translation_key": "Sort hashmap %1 by value and for each entry : %2",
   "type": 0,
   "color": [
-    0.07468281686306,
-    0.5441176891326904,
-    0.07468281686306,
+    0.07450980693101883,
+    0.545098066329956,
+    0.07450980693101883,
     1.0
   ],
   "category": "HashMapCategory",
@@ -15,10 +15,14 @@
     "1.18.2_Forge"
   ],
   "components": {
-    "map": {
+    "hashmap": {
       "type": 0,
       "variable_type": "EriHashMapNumber",
       "variable_index": 9
+    },
+    "executor": {
+      "type": 5,
+      "disable_local_variables": false
     }
   }
 }

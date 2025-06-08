@@ -1,0 +1,31 @@
+{
+  "name": "ParsePattern",
+  "translation_key": "parse pattern %1 in String %2 (%NUMERIC%, %STRING%, %BOOLEAN%) put on ArrayList Object",
+  "type": 0,
+  "color": [
+    0.4470588266849518,
+    0.09803921729326248,
+    0.3843137323856354,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "pattern": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "Name: %STRING%, Score: %NUMERIC%, Valid: %BOOLEAN%"
+    },
+    "String": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "Name: \\\"Alice Dupont\\\", Score: 85.5, Valid: false"
+    }
+  }
+}

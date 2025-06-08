@@ -1,6 +1,6 @@
 {
-  "name": "int",
-  "translation_key": "int %1",
+  "name": "ObjectToNumberFix",
+  "translation_key": "%1",
   "type": 1,
   "color": [
     0.3764705955982208,
@@ -8,19 +8,18 @@
     0.6000000238418579,
     1.0
   ],
-  "category": "Math",
-  "category_index": 17,
+  "category": "Object",
+  "category_index": 23,
   "world_dependency": false,
   "type_index": 5,
   "versions": [
     "1.18.2_Forge"
   ],
   "components": {
-    "number": {
+    "Object": {
       "type": 0,
-      "variable_type": "Number",
-      "variable_index": 5,
-      "default_value": 0.0
+      "variable_type": "EriObject",
+      "variable_index": 8
     }
   }
 }

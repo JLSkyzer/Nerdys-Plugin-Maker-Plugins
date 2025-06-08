@@ -1,0 +1,24 @@
+{
+  "name": "ObjectArraylistAdd",
+  "translation_key": "Object Arraylist add %1",
+  "type": 0,
+  "color": [
+    0.4470588266849518,
+    0.09803921729326248,
+    0.3843137323856354,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 23,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "object": {
+      "type": 0,
+      "variable_type": "EriObject",
+      "variable_index": 8
+    }
+  }
+}

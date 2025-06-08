@@ -1,0 +1,29 @@
+{
+  "name": "SetStringVarToValue",
+  "translation_key": "Set String var %1 to value %2",
+  "type": 0,
+  "color": [
+    0.3764705955982208,
+    0.6000000238418579,
+    0.5254902243614197,
+    1.0
+  ],
+  "category": "Flow control",
+  "category_index": 15,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "varname": {
+      "type": 1,
+      "field_content": "varname"
+    },
+    "varvalue": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "value"
+    }
+  }
+}

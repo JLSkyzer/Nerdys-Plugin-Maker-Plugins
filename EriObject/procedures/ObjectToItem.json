@@ -1,0 +1,25 @@
+{
+  "name": "ObjectToItem",
+  "translation_key": "%1",
+  "type": 1,
+  "color": [
+    0.6000000238418579,
+    0.3764705955982208,
+    0.4117647111415863,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 3,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "Object": {
+      "type": 0,
+      "variable_type": "EriObject",
+      "variable_index": 8
+    }
+  }
+}

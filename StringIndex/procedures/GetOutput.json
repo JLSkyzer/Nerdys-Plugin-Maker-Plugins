@@ -1,6 +1,6 @@
 {
   "name": "GetOutput",
-  "translation_key": "Getout put with number %1 in a range between %2 and %3",
+  "translation_key": "Get output with number %1 in a range between %2 and %3",
   "type": 1,
   "color": [
     0.03529411926865578,
@@ -30,8 +30,9 @@
     },
     "max": {
       "type": 0,
-      "variable_type": "Block",
-      "variable_index": 0
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
     }
   }
 }

@@ -9,7 +9,7 @@
     1.0
   ],
   "category": "HashMapCategory",
-  "category_index": 26,
+  "category_index": 27,
   "world_dependency": false,
   "versions": [
     "1.18.2_Forge"
@@ -18,7 +18,7 @@
     "HashMap": {
       "type": 0,
       "variable_type": "EriHashMapNumber",
-      "variable_index": 8
+      "variable_index": 9
     },
     "startindex": {
       "type": 0,

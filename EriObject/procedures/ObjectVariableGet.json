@@ -1,0 +1,26 @@
+{
+  "name": "ObjectVariableGet",
+  "translation_key": "Get variable value of %1",
+  "type": 1,
+  "color": [
+    0.47843137383461,
+    0.11372549086809158,
+    0.6509804129600525,
+    1.0
+  ],
+  "category": "Object",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 8,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "name": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "name"
+    }
+  }
+}
