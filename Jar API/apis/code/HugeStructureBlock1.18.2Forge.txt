@@ -12,5 +12,5 @@ repositories {
 }
 
 dependencies {
-    implementation fg.deobf("curse.maven:smooth-boot-reloaded-633412:5016275")
+    implementation fg.deobf("curse.maven:huge-structure-blocks-474114:4688533")
 }

@@ -17,10 +17,7 @@
   ],
   "components": {
     "name": {
-      "type": 0,
-      "variable_type": "Text",
-      "variable_index": 6,
-      "default_value": "name"
+      "type": 1
     }
   }
 }

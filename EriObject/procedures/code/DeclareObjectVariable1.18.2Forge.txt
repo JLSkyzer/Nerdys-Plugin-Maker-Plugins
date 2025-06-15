@@ -1,1 +1,1 @@
-Object ${input$name} = new Object();
+Object ${field$name} = new Object();

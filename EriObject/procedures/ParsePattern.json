@@ -1,6 +1,6 @@
 {
   "name": "ParsePattern",
-  "translation_key": "parse pattern %1 in String %2 (%NUMERIC%, %STRING%, %BOOLEAN%) put on ArrayList Object",
+  "translation_key": "parse pattern %1 in String %2 (%NUMERIC%, %STRING%, %BOOLEAN%, %OTHER%) put on ArrayList Object",
   "type": 0,
   "color": [
     0.4470588266849518,

@@ -1,6 +1,6 @@
 {
-  "name": "DeclareObjectVariable",
-  "translation_key": "Déclare new variable %1",
+  "name": "CallProcedureWithArg",
+  "translation_key": "Call procedure %1 with arg",
   "type": 0,
   "color": [
     0.4470588266849518,
@@ -11,12 +11,15 @@
   "category": "Object",
   "category_index": 23,
   "world_dependency": false,
+  "mutator": "CallProcedureArgMutator",
   "versions": [
     "1.18.2_Forge"
   ],
   "components": {
-    "name": {
-      "type": 1
+    "procedure": {
+      "type": 4,
+      "datalist": "procedure",
+      "entry_provider": "procedure"
     }
   }
 }

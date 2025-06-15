@@ -27,3 +27,7 @@ ObjectToNumberFix
 ObjectToStringFix
 objectListener
 ParsePattern
+CallProcedureWithArg
+CallProcedureArgMutator
+CreateWorldVar
+CallProcedureWithArgReturnObject

@@ -1,1 +1,1 @@
-${input$name} = ${input$Object};
+${field$name} = ${input$Object};

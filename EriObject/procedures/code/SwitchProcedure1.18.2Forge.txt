@@ -1,0 +1,7 @@
+switch (${input$switchparam}){
+	<#list input_list$entry as entry>
+	case ${entry}:
+		${statement$executor}
+	<#sep>\n
+	</#list>
+}
