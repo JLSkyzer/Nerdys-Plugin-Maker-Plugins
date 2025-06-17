@@ -1,16 +1,3 @@
-repositories {
-    exclusiveContent {
-        forRepository {
-            maven {
-                url "https://cursemaven.com"
-            }
-        }
-        filter {
-            includeGroup "curse.maven"
-        }
-    }
-}
-
 dependencies {
-    implementation fg.deobf("curse.maven:smooth-boot-reloaded-633412:5016275")
+	implementation fg.deobf("curse.maven:smooth-boot-reloaded-633412:5016275")
 }

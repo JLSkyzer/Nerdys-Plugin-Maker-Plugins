@@ -1,16 +1,3 @@
-repositories {
-    exclusiveContent {
-        forRepository {
-            maven {
-                url "https://cursemaven.com"
-            }
-        }
-        filter {
-            includeGroup "curse.maven"
-        }
-    }
-}
-
 dependencies {
-    implementation fg.deobf("curse.maven:huge-structure-blocks-474114:4688533")
+	implementation fg.deobf("curse.maven:huge-structure-blocks-474114:4688533")
 }
