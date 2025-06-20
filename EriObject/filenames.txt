@@ -31,3 +31,5 @@ CallProcedureWithArg
 CallProcedureArgMutator
 CreateWorldVar
 CallProcedureWithArgReturnObject
+EntityPersistentPut
+EntityPersistentGet

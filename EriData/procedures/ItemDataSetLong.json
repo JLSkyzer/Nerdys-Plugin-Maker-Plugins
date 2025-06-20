@@ -1,0 +1,36 @@
+{
+  "name": "ItemDataSetLong",
+  "translation_key": "Put long data %1 with val %2 on item %3",
+  "type": 0,
+  "color": [
+    0.3764705955982208,
+    0.4117647111415863,
+    0.6000000238418579,
+    1.0
+  ],
+  "category": "Item procedures (2023.4+ = Item actions)",
+  "category_index": 7,
+  "world_dependency": false,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "data": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "value": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "itemStack": {
+      "type": 0,
+      "variable_type": "Item",
+      "variable_index": 3
+    }
+  }
+}

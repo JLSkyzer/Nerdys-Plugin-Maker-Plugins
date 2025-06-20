@@ -1,0 +1,6 @@
+EriData
+eridata
+1.0
+JLSkyzer
+Manage data and persistent data
+Made with MCreator plugin builder by NerdyPuzzle

@@ -1,0 +1,2 @@
+${input$block}.getBlockEntity(new BlockPos(${input$x}, ${input$y}, ${input$z})).getTileData().putLong(${input$data}, ${input$val});
+world.sendBlockUpdated(new BlockPos(${input$x}, ${input$y}, ${input$z}), ${input$block}, ${input$block}, 3);

@@ -17,14 +17,6 @@ ForEachFile
 InputFileIterrator
 OutputFileIterrator
 FileIterratorGetName
-SetEntityNBTNumber
-InitialiseEntityNBT
-ChangeNBTVariableValue
-SetEntityNBTString
-SetEntityNBTLogic
-GetEntityNBTNumber
-GetEntityNBTString
-GetEntityNBTLogic
 GetItemOfItem
 WaitXTickDoInServerSide
 GetSignLine
@@ -110,6 +102,5 @@ NewThread
 ExecuteInMainThread
 SetStringVarToValue
 SetBooleanVarToValue
-SetDoubleVarToValue
 HashMapSortAndForEach
 GetItemNumber

@@ -1,0 +1,49 @@
+{
+  "name": "BlockDateGetLong",
+  "translation_key": "Get long data %1 on block %2 at x %3 y %4 z %5",
+  "type": 1,
+  "color": [
+    0.3764705955982208,
+    0.4117647111415863,
+    0.6000000238418579,
+    1.0
+  ],
+  "category": "Block data",
+  "category_index": 0,
+  "world_dependency": true,
+  "type_index": 5,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "data": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "block": {
+      "type": 0,
+      "variable_type": "Block",
+      "variable_index": 0
+    },
+    "x": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "y": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "z": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}
