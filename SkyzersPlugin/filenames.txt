@@ -104,3 +104,6 @@ SetStringVarToValue
 SetBooleanVarToValue
 HashMapSortAndForEach
 GetItemNumber
+DoubleNumberWithD
+EntitySetDeltaMovement
+EntityGetDeltaMovement

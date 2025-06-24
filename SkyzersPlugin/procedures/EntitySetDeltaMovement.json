@@ -1,26 +1,24 @@
 {
-  "name": "BlockDateGetLong",
-  "translation_key": "Get long data %1 on block at x %2 y %3 z %4",
-  "type": 1,
+  "name": "EntitySetDeltaMovement",
+  "translation_key": "Set Delta movement to %1 at x %2 y %3 z %4",
+  "type": 0,
   "color": [
-    0.3764705955982208,
-    0.4117647111415863,
-    0.6000000238418579,
+    0.8676470518112183,
+    0.004253158811479807,
+    0.004253158811479807,
     1.0
   ],
-  "category": "Block data",
-  "category_index": 0,
-  "world_dependency": true,
-  "type_index": 5,
+  "category": "Base",
+  "category_index": 23,
+  "world_dependency": false,
   "versions": [
     "1.18.2_Forge"
   ],
   "components": {
-    "data": {
+    "entity": {
       "type": 0,
-      "variable_type": "Text",
-      "variable_index": 6,
-      "default_value": "text"
+      "variable_type": "Entity",
+      "variable_index": 2
     },
     "x": {
       "type": 0,

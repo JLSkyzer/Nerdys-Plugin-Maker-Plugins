@@ -1,1 +1,1 @@
-obj.clear();
+${input$varobject}.clear();

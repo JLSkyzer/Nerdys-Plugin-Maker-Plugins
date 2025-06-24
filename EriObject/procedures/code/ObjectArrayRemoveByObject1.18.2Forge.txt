@@ -1,0 +1,1 @@
+${input$varobject}.remove(${input$object});

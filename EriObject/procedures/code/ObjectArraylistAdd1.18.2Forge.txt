@@ -1,1 +1,1 @@
-obj.add(${input$object});
+${input$varobject}.add(${input$object});

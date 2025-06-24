@@ -1,4 +1,4 @@
-obj = new Object(){
+${input$varobj} = new Object(){
     private List<Object> parsePattern(String patternStr, String input) {
         // Définition des sous-motifs regex pour chaque placeholder
         String numericPattern = "(-?\\d+(?:\\.\\d+)?)";                       // nombre entier ou décimal (Double)

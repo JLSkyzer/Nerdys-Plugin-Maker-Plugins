@@ -1,6 +1,6 @@
 {
   "name": "ParsePattern",
-  "translation_key": "parse pattern %1 in String %2 (%NUMERIC%, %STRING%, %BOOLEAN%, %OTHER%) put on ArrayList Object",
+  "translation_key": "parse pattern %1 in String %2 (%NUMERIC%, %STRING%, %BOOLEAN%, %OTHER%) put on %3",
   "type": 0,
   "color": [
     0.4470588266849518,
@@ -26,6 +26,11 @@
       "variable_type": "Text",
       "variable_index": 6,
       "default_value": "Name: \\\"Alice Dupont\\\", Score: 85.5, Valid: false"
+    },
+    "varobj": {
+      "type": 0,
+      "variable_type": "EriObject",
+      "variable_index": 8
     }
   }
 }

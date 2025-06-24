@@ -1,1 +1,1 @@
-${input$block}.getBlockEntity(new BlockPos(${input$x}, ${input$y}, ${input$z})).getTileData().getLong(${input$data})
+world.getBlockEntity(new BlockPos(${input$x}, ${input$y}, ${input$z})).getTileData().getLong(${input$data})

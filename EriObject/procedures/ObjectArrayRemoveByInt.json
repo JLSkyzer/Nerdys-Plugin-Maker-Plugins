@@ -1,7 +1,7 @@
 {
-  "name": "ObjectArrayList",
-  "translation_key": "Get %1 on the Object ArrayList %2",
-  "type": 1,
+  "name": "ObjectArrayRemoveByInt",
+  "translation_key": "Remove %1 on %2",
+  "type": 0,
   "color": [
     0.4470588266849518,
     0.09803921729326248,
@@ -11,18 +11,17 @@
   "category": "Object",
   "category_index": 23,
   "world_dependency": false,
-  "type_index": 8,
   "versions": [
     "1.18.2_Forge"
   ],
   "components": {
-    "Number": {
+    "index": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
       "default_value": 0.0
     },
-    "object": {
+    "varobject": {
       "type": 0,
       "variable_type": "EriObject",
       "variable_index": 8

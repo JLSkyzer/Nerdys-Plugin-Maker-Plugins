@@ -7,8 +7,8 @@
   ],
   "versions": {
     "1.18.2_Forge": {
-      "class": "Object",
-      "default_value": "null"
+      "class": "java.util.List<Object>",
+      "default_value": "new java.util.ArrayList<>()"
     }
   }
 }

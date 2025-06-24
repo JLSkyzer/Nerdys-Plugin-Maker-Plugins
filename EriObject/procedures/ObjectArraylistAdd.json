@@ -1,6 +1,6 @@
 {
   "name": "ObjectArraylistAdd",
-  "translation_key": "Object Arraylist add %1",
+  "translation_key": "Object Arraylist add %1 to %2",
   "type": 0,
   "color": [
     0.4470588266849518,
@@ -16,6 +16,11 @@
   ],
   "components": {
     "object": {
+      "type": 0,
+      "variable_type": "EriObject",
+      "variable_index": 8
+    },
+    "varobject": {
       "type": 0,
       "variable_type": "EriObject",
       "variable_index": 8
