@@ -1,6 +1,0 @@
-Erilog
-0
-0 0.818339 0.843137 1
-0
-17
-JLSkyzer Procedures

@@ -1,0 +1,15 @@
+new Object(){
+	private String getSignLine(Level level, int x, int y, int z, int index) {
+		BlockPos pos = new BlockPos(x, y, z);
+		Block block = level.getBlockState(pos).getBlock();
+		if (block instanceof SignBlock) {
+			BlockEntity tile = level.getBlockEntity(pos);
+			if (tile instanceof SignBlockEntity sign) {
+				if (index >= 0 && index < 4) {
+					return sign.getMessage(index, false).getString();
+				}
+			}
+		}
+		return "";
+	}
+}.getSignLine((Level) world, ${input$posX}, ${input$posY}, ${input$posZ}, ${input$line})
