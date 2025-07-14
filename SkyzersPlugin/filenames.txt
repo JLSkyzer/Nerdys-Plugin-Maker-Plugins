@@ -107,3 +107,4 @@ GetItemNumber
 DoubleNumberWithD
 EntitySetDeltaMovement
 EntityGetDeltaMovement
+blockPosGet
