@@ -1,4 +1,12 @@
-dependencies {
-    implementation fileTree(dir: 'libs', include: '*.jar')
-    runtimeOnly fileTree(dir: 'libs', include: '*.jar')
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven"
+        }
+    }
 }
