@@ -9,6 +9,10 @@
     "1.18.2_Forge": {
       "class": "int[][]",
       "default_value": "new int[49][49]"
+    },
+    "1.21.4_NeoForge": {
+      "class": "int[][]",
+      "default_value": "new int[49][49]"
     }
   }
 }

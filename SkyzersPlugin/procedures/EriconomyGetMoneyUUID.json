@@ -6,7 +6,7 @@
     0.035294100642204285,
     0.7803919911384583,
     0.12156900018453598,
-    1.0
+    1
   ],
   "category": "Ericonomy",
   "category_index": 24,
@@ -15,7 +15,8 @@
   "versions": [
     "1.20.1_Forge",
     "1.20.4_Forge",
-    "1.20.4_NeoForge"
+    "1.20.4_NeoForge",
+    "1.21.4_NeoForge"
   ],
   "components": {
     "entity": {

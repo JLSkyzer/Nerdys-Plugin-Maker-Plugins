@@ -1,0 +1,83 @@
+${input$varobj} = new Object(){
+    private List<Object> parsePattern(String patternStr, String input) {
+        // Définition des sous-motifs regex pour chaque placeholder
+        String numericPattern = "(-?\\d+(?:\\.\\d+)?)";                       // nombre entier ou décimal (Double)
+        String stringPattern  = "(?:'([^']*)'|\\\"([^\\\"]*)\\\")";           // texte entre quotes simples ou doubles
+        String booleanPattern = "(true|false)";                               // booléen "true" ou "false"
+        String otherPattern   = "(.+?)";                                      // tout sauf saut de ligne (lazy)
+
+        // Construire le motif regex complet en insérant les motifs correspondants aux placeholders
+        StringBuilder regexBuilder = new StringBuilder();
+        Pattern placeholderRegex = Pattern.compile("%(NUMERIC|STRING|BOOLEAN|OTHER)%");
+        Matcher phMatcher = placeholderRegex.matcher(patternStr);
+        int lastEnd = 0;
+        List<String> placeholderTypes = new ArrayList<>();
+        while (phMatcher.find()) {
+            String literalText = patternStr.substring(lastEnd, phMatcher.start());
+            if (!literalText.isEmpty()) {
+                regexBuilder.append(Pattern.quote(literalText));
+            }
+            String type = phMatcher.group(1);
+            switch (type) {
+                case "NUMERIC":
+                    regexBuilder.append(numericPattern);
+                    placeholderTypes.add("NUMERIC");
+                    break;
+                case "STRING":
+                    regexBuilder.append(stringPattern);
+                    placeholderTypes.add("STRING");
+                    break;
+                case "BOOLEAN":
+                    regexBuilder.append(booleanPattern);
+                    placeholderTypes.add("BOOLEAN");
+                    break;
+                case "OTHER":
+                    regexBuilder.append(otherPattern);
+                    placeholderTypes.add("OTHER");
+                    break;
+            }
+            lastEnd = phMatcher.end();
+        }
+        if (lastEnd < patternStr.length()) {
+            String literalText = patternStr.substring(lastEnd);
+            regexBuilder.append(Pattern.quote(literalText));
+        }
+        Pattern finalPattern = Pattern.compile(regexBuilder.toString());
+        Matcher matcher = finalPattern.matcher(input);
+
+        if (!matcher.matches()) {
+            return new ArrayList<>();
+        }
+
+        List<Object> result = new ArrayList<>();
+        int groupIndex = 1;
+        for (String type : placeholderTypes) {
+            switch (type) {
+                case "NUMERIC":
+                    String numStr = matcher.group(groupIndex);
+                    result.add(Double.valueOf(numStr));
+                    groupIndex += 1;
+                    break;
+                case "BOOLEAN":
+                    String boolStr = matcher.group(groupIndex);
+                    result.add(Boolean.valueOf(boolStr));
+                    groupIndex += 1;
+                    break;
+                case "STRING":
+                    String content = matcher.group(groupIndex);
+                    if (content == null) {
+                        content = matcher.group(groupIndex + 1);
+                    }
+                    result.add(content);
+                    groupIndex += 2;
+                    break;
+                case "OTHER":
+                    String anyValue = matcher.group(groupIndex);
+                    result.add(anyValue);
+                    groupIndex += 1;
+                    break;
+            }
+        }
+        return result;
+    }
+}.parsePattern(${input$pattern}, ${input$String});

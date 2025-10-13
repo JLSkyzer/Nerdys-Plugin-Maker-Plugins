@@ -6,51 +6,52 @@
     0.3764705955982208,
     0.48627451062202454,
     0.6000000238418579,
-    1.0
+    1
   ],
   "category": "Base",
   "category_index": 23,
   "world_dependency": true,
   "type_index": 4,
   "versions": [
-    "1.18.2_Forge"
+    "1.18.2_Forge",
+    "1.21.4_NeoForge"
   ],
   "components": {
     "x": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "z": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "x1": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "z1": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "x2": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "z2": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     }
   }
 }

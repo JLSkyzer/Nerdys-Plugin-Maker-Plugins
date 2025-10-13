@@ -1,0 +1,1 @@
+eriMap.put((${input$Name}).toString(), (int) ${input$Value});

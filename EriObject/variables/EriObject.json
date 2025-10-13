@@ -9,6 +9,10 @@
     "1.18.2_Forge": {
       "class": "java.util.List<Object>",
       "default_value": "new java.util.ArrayList<>()"
+    },
+    "1.21.4_NeoForge": {
+      "class": "java.util.List<Object>",
+      "default_value": "new java.util.ArrayList<>()"
     }
   }
 }

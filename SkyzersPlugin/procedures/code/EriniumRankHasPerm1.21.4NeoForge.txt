@@ -1,0 +1,56 @@
+new Object(){
+	private static Boolean havePerm(String permission){
+		if (ModList.get().isLoaded("eriniumrank")) {
+			File File = new File("");
+			com.google.gson.JsonObject JsonObject = new com.google.gson.JsonObject();
+			com.google.gson.JsonObject SecJsonObject = new com.google.gson.JsonObject();
+			boolean result = false;
+			File = new File((FMLPaths.GAMEDIR.get().toString() + "/config/eriniumRanks/"),
+				File.separator + ((${input$entity}.getCapability(fr.eriniumgroups.eriniumrank.network.EriniumrankModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new fr.eriniumgroups.eriniumrank.network.EriniumrankModVariables.PlayerVariables())).rank + ".json"));
+			{
+				try {
+					BufferedReader bufferedReader = new BufferedReader(new FileReader(File));
+					StringBuilder jsonstringbuilder = new StringBuilder();
+					String line;
+					while ((line = bufferedReader.readLine()) != null) {
+						jsonstringbuilder.append(line);
+					}
+					bufferedReader.close();
+					JsonObject = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+					if (JsonObject.has(permission)) {
+						result = JsonObject.get(permission).getAsBoolean();
+					} else if (JsonObject.has("*")) {
+						result = true;
+					}
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			if (!result) {
+				File = new File((FMLPaths.GAMEDIR.get().toString() + "/config/eriniumRanks/players/"), File.separator + (${input$entity}.getDisplayName().getString() + ".json"));
+				{
+					try {
+						BufferedReader bufferedReader = new BufferedReader(new FileReader(File));
+						StringBuilder jsonstringbuilder = new StringBuilder();
+						String line;
+						while ((line = bufferedReader.readLine()) != null) {
+							jsonstringbuilder.append(line);
+						}
+						bufferedReader.close();
+						SecJsonObject = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+						if (SecJsonObject.has(permission)) {
+							result = SecJsonObject.get(permission).getAsBoolean();
+						} else if (SecJsonObject.has("*")) {
+							result = true;
+						}
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+			return result;
+		}else{
+			return false;
+		}
+	}
+}.havePerm(${input$permission})

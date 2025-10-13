@@ -9,6 +9,10 @@
     "1.18.2_Forge": {
       "class": "java.util.ArrayList<String>",
       "default_value": "new ArrayList<String>()"
+    },
+    "1.21.4_NeoForge": {
+      "class": "java.util.ArrayList<String>",
+      "default_value": "new ArrayList<String>()"
     }
   }
 }

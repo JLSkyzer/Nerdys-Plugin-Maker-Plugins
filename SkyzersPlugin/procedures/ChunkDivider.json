@@ -6,45 +6,46 @@
     0.3764705955982208,
     0.6000000238418579,
     0.5254902243614197,
-    1.0
+    1
   ],
   "category": "Base",
   "category_index": 23,
   "world_dependency": false,
   "type_index": 6,
   "versions": [
-    "1.18.2_Forge"
+    "1.18.2_Forge",
+    "1.21.4_NeoForge"
   ],
   "components": {
     "chunkWidth": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "chunkHeight": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "numberOfPieces": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "posx": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "posz": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     }
   }
 }

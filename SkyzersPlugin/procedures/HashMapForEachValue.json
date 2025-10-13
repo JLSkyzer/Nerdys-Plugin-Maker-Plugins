@@ -6,13 +6,14 @@
     0.08165411651134491,
     0.5686274766921997,
     0.06689734756946564,
-    1.0
+    1
   ],
   "category": "HashMapCategory",
   "category_index": 27,
   "world_dependency": false,
   "versions": [
-    "1.18.2_Forge"
+    "1.18.2_Forge",
+    "1.21.4_NeoForge"
   ],
   "components": {
     "HashMap": {
@@ -24,13 +25,13 @@
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "repeat": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0.0
+      "default_value": 0
     },
     "execution": {
       "type": 5,

@@ -1,0 +1,1 @@
+java.util.List<Object> obj = new java.util.ArrayList<>();

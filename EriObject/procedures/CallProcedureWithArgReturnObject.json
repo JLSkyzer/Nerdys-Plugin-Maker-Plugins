@@ -14,7 +14,8 @@
   "type_index": 8,
   "mutator": "CallProcedureArgMutator",
   "versions": [
-    "1.18.2_Forge"
+    "1.18.2_Forge",
+    "1.21.4_NeoForge"
   ],
   "components": {
     "procedure": {

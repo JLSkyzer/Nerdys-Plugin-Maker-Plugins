@@ -1,0 +1,1 @@
+${input$varobject}.add(${input$object});

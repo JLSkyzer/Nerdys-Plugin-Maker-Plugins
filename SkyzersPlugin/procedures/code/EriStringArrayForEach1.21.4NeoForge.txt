@@ -1,0 +1,8 @@
+{
+    AtomicInteger index = new AtomicInteger(0);
+    for (String stringIterator : ${input$array}) {
+		${statement$executor}
+		
+		index.getAndIncrement();
+    }
+}

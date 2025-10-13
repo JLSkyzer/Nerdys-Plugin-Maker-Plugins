@@ -1,10 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(for dir in EriData EriMap EriObject \"Jar API\" StringIndex)",
-      "Bash(do echo \"=== $dir ===\")",
-      "Bash(ls:*)",
-      "Bash(done)"
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(where python)",
+      "Bash(dir:*)",
+      "Bash(node process_skyzers.js)",
+      "Bash(while read f)",
+      "Bash(do grep -q \"1.21.4_NeoForge\" \"$f\")",
+      "Bash(for f in *.json)"
     ],
     "deny": [],
     "ask": []

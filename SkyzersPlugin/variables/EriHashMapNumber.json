@@ -9,6 +9,10 @@
     "1.18.2_Forge": {
       "class": "java.util.Map<String,Double>",
       "default_value": "new HashMap<>()"
+    },
+    "1.21.4_NeoForge": {
+      "class": "java.util.Map<String,Double>",
+      "default_value": "new HashMap<>()"
     }
   }
 }

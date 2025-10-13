@@ -1,0 +1,18 @@
+new Object(){
+	private String removeValueSep(String text, String arg, String sep){
+		String temp = text;
+		if (!(text).isEmpty()) {
+			if (text.contains(arg + "" + sep)) {
+				temp = temp.replace(arg + "" + sep, "");
+			} else {
+				if (temp.contains(sep + "" + arg)){
+					temp = temp.replace(sep + "" + arg, "");
+				}else {
+					temp = temp.replace(arg, "");
+				}
+			}
+		}
+
+		return temp;
+	}
+}.removeValueSep(${input$text}, ${input$arg}, ${input$sep})

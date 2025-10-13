@@ -1,0 +1,5 @@
+// Retour au thread principal (client)
+Minecraft.getInstance().tell(() -> {
+	${statement$executor}
+
+});

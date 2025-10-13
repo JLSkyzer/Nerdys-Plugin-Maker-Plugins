@@ -1,0 +1,1 @@
+${input$itemStack}.getOrCreateTag().getLong(${input$data})

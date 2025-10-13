@@ -1,0 +1,14 @@
+new Object(){
+    // Fonction qui vérifie si le joueur est dans la zone
+    private boolean isPlayerWithinBounds(double playerX, double playerZ,
+                                               double x1, double z1, double x2, double z2) {
+        // Détermine les limites minimales et maximales des axes X et Z
+        double minX = Math.min(x1, x2);
+        double maxX = Math.max(x1, x2);
+        double minZ = Math.min(z1, z2);
+        double maxZ = Math.max(z1, z2);
+
+        // Vérifie si la position du joueur est dans les limites
+        return (playerX >= minX && playerX <= maxX) && (playerZ >= minZ && playerZ <= maxZ);
+    }
+}.isPlayerWithinBounds((Double) ${input$x}, (Double) ${input$z}, (Double) ${input$x1}, (Double) ${input$z1}, (Double) ${input$x2}, (Double) ${input$z2})
