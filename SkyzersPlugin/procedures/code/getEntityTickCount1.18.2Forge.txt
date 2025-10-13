@@ -1,0 +1,8 @@
+new Object(){
+    private int getPlayerTickCount(Entity entity1){
+        if (entity1 instanceof Player player){
+            return player.tickCount;
+        }
+        return 0;
+    }
+}.getPlayerTickCount(${input$entity})

@@ -1,0 +1,12 @@
+new Object(){
+	private String addValueSep(String text, String arg, String sep){
+		String temp = text;
+		if ((text).isEmpty()) {
+			temp = arg;
+		} else {
+			temp = temp + sep + arg;
+		}
+
+		return temp;
+	}
+}.addValueSep(${input$text}, ${input$arg}, ${input$sep})

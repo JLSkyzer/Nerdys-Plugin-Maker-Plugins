@@ -108,3 +108,4 @@ DoubleNumberWithD
 EntitySetDeltaMovement
 EntityGetDeltaMovement
 blockPosGet
+getEntityTickCount

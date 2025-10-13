@@ -1,0 +1,25 @@
+{
+  "name": "getEntityTickCount",
+  "translation_key": "entity.tickCount of %1",
+  "type": 1,
+  "color": [
+    0.0,
+    0.6271626949310303,
+    0.7107843160629272,
+    1.0
+  ],
+  "category": "Entity data",
+  "category_index": 5,
+  "world_dependency": false,
+  "type_index": 5,
+  "versions": [
+    "1.18.2_Forge"
+  ],
+  "components": {
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    }
+  }
+}

@@ -4,3 +4,5 @@ GetStringIndexUseCharacterToSeparate
 GetSizeOfStringBySeparator
 ExtractValue
 GetOutput
+addValueSep
+removeValueSep
