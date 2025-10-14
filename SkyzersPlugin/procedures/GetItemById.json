@@ -6,7 +6,7 @@
     0.48529401421546936,
     0.05471450090408325,
     0.05471450090408325,
-    1
+    1.0
   ],
   "category": "Base",
   "category_index": 23,
@@ -14,7 +14,7 @@
   "type_index": 3,
   "versions": [
     "1.16.5_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "id": {

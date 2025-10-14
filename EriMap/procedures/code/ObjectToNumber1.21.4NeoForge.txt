@@ -1,8 +1,0 @@
-new Object(){
-	private Number returnvalue(Object obj){
-		if (obj instanceof Number){
-			return (Number) obj;
-		}
-		return 0.0;
-	}
-}.returnvalue(${input$obj})

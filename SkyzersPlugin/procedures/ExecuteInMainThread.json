@@ -6,14 +6,14 @@
     0.027450980618596077,
     0.40784314274787903,
     0.6705882549285889,
-    1
+    1.0
   ],
   "category": "Base",
   "category_index": 23,
   "world_dependency": false,
   "versions": [
     "1.18.2_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "executor": {

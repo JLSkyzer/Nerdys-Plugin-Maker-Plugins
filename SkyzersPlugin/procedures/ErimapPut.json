@@ -6,7 +6,7 @@
     0.48627451062202454,
     0.054901961237192154,
     0.054901961237192154,
-    1
+    1.0
   ],
   "category": "HashMapCategory",
   "category_index": 28,
@@ -14,7 +14,7 @@
   "versions": [
     "1.20.4_NeoForge",
     "1.20.1_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "Name": {
@@ -27,7 +27,7 @@
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     }
   }
 }

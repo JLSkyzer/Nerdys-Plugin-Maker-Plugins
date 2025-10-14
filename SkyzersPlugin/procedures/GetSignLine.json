@@ -6,7 +6,7 @@
     0.48627498745918274,
     0.05490199849009514,
     0.05490199849009514,
-    1
+    1.0
   ],
   "category": "Base",
   "category_index": 23,
@@ -18,32 +18,32 @@
     "1.20.4_Forge",
     "1.20.4_NeoForge",
     "1.18.2_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "line": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "posX": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "posY": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "posZ": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     }
   }
 }

@@ -10,7 +10,7 @@
       "class": "java.awt.image.BufferedImage",
       "default_value": "new java.awt.image.BufferedImage(30000, 30000, java.awt.image.BufferedImage.TYPE_INT_ARGB)"
     },
-    "1.21.4_NeoForge": {
+    "1.21.1_NeoForge": {
       "class": "java.awt.image.BufferedImage",
       "default_value": "new java.awt.image.BufferedImage(30000, 30000, java.awt.image.BufferedImage.TYPE_INT_ARGB)"
     }

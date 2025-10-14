@@ -6,7 +6,7 @@
     0.42387545108795166,
     0.8823529481887817,
     0.5182678699493408,
-    1
+    1.0
   ],
   "category": "HashMapCategory",
   "category_index": 27,
@@ -15,7 +15,7 @@
   "versions": [
     "1.20.4_NeoForge",
     "1.20.1_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "mutator": {

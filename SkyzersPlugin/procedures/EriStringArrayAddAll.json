@@ -3,17 +3,17 @@
   "translation_key": "AddAll by String %1 (Use \"split\") to String Arraylist %2",
   "type": 0,
   "color": [
-    0,
+    0.0,
     0.7647058963775635,
     0.11245667189359665,
-    1
+    1.0
   ],
   "category": "EriArrayList",
   "category_index": 28,
   "world_dependency": false,
   "versions": [
     "1.18.2_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "string": {

@@ -6,14 +6,14 @@
     0.12494631111621857,
     0.8039215803146362,
     0.007881607860326767,
-    1
+    1.0
   ],
   "category": "EriArrayList",
   "category_index": 24,
   "world_dependency": false,
   "versions": [
     "1.18.2_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "array": {

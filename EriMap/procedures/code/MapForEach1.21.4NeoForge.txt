@@ -1,4 +1,0 @@
-for (java.util.Map.Entry<String, Object> entry : ${input$map}.entrySet()){
-	${statement$executor}
-
-}

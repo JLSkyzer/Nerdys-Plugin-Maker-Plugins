@@ -10,7 +10,7 @@
       "class": "int[][]",
       "default_value": "new int[49][49]"
     },
-    "1.21.4_NeoForge": {
+    "1.21.1_NeoForge": {
       "class": "int[][]",
       "default_value": "new int[49][49]"
     }

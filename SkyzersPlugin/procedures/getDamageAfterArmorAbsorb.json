@@ -6,7 +6,7 @@
     0.37647101283073425,
     0.4117650091648102,
     0.6000000238418579,
-    1
+    1.0
   ],
   "category": "Base",
   "category_index": 23,
@@ -16,14 +16,14 @@
     "1.20.1_Forge",
     "1.20.4_Forge",
     "1.20.4_NeoForge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "damage": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     }
   }
 }

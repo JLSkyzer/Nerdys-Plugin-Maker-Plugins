@@ -6,45 +6,45 @@
     0.48627451062202454,
     0.054901961237192154,
     0.054901961237192154,
-    1
+    1.0
   ],
   "category": "Base",
   "category_index": 23,
   "world_dependency": true,
   "versions": [
     "1.18.2_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "startX": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "startZ": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "endX": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "endZ": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "forY": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "executor": {
       "type": 5,

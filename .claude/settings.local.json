@@ -3,12 +3,10 @@
     "allow": [
       "Bash(python:*)",
       "Bash(python3:*)",
-      "Bash(where python)",
+      "Bash(where python python3 py)",
+      "Read(//d/pluginbuilder_release_2.0/**)",
       "Bash(dir:*)",
-      "Bash(node process_skyzers.js)",
-      "Bash(while read f)",
-      "Bash(do grep -q \"1.21.4_NeoForge\" \"$f\")",
-      "Bash(for f in *.json)"
+      "Bash(node migrate_neoforge_version.js)"
     ],
     "deny": [],
     "ask": []

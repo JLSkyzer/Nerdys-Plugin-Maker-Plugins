@@ -1,6 +1,0 @@
-new Object(){
-    private int returnSize(String text, String separator){
-        String[] resultTxt = (text).split(separator);
-        return resultTxt.length;
-    }
-}.returnSize(${input$text}, ${input$sep})

@@ -6,14 +6,14 @@
     0.07468281686306,
     0.5441176891326904,
     0.07468281686306,
-    1
+    1.0
   ],
   "category": "HashMapCategory",
   "category_index": 27,
   "world_dependency": false,
   "versions": [
     "1.18.2_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "map": {

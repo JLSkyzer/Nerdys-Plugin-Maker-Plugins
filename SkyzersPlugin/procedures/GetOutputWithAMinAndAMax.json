@@ -6,7 +6,7 @@
     0.3764705955982208,
     0.4117647111415863,
     0.6000000238418579,
-    1
+    1.0
   ],
   "category": "Math",
   "category_index": 17,
@@ -14,26 +14,26 @@
   "type_index": 5,
   "versions": [
     "1.18.2_Forge",
-    "1.21.4_NeoForge"
+    "1.21.1_NeoForge"
   ],
   "components": {
     "input": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "min": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     },
     "max": {
       "type": 0,
       "variable_type": "Number",
       "variable_index": 5,
-      "default_value": 0
+      "default_value": 0.0
     }
   }
 }
