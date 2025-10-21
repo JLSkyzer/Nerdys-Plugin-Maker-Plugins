@@ -109,3 +109,6 @@ EntitySetDeltaMovement
 EntityGetDeltaMovement
 blockPosGet
 getEntityTickCount
+currentTimeMillis
+getDateWithcurrentTimeMillis
+itemToitemStack

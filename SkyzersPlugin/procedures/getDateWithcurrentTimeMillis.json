@@ -1,0 +1,32 @@
+{
+  "name": "getDateWithcurrentTimeMillis",
+  "translation_key": "get the date of %1 with format %2",
+  "type": 1,
+  "color": [
+    0.3764705955982208,
+    0.6000000238418579,
+    0.5254902243614197,
+    1.0
+  ],
+  "category": "Math",
+  "category_index": 17,
+  "world_dependency": false,
+  "type_index": 6,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "time": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "format": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "dd/MM/yyyy at HH:mm"
+    }
+  }
+}

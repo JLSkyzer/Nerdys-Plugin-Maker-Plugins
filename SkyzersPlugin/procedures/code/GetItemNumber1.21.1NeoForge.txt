@@ -4,7 +4,10 @@ new Object(){
 		double count = 0;
 		{
 			AtomicReference<IItemHandler> _iitemhandlerref = new AtomicReference<>();
-			entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> _iitemhandlerref.set(capability));
+			IItemHandler capability = entity.getCapability(Capabilities.ItemHandler.ENTITY);
+            if (capability != null) {
+                _iitemhandlerref.set(capability);
+            }
 			if (_iitemhandlerref.get() != null) {
 				for (int _idx = 0; _idx < _iitemhandlerref.get().getSlots(); _idx++) {
 					ItemStack itemstackiterator = _iitemhandlerref.get().getStackInSlot(_idx).copy();
