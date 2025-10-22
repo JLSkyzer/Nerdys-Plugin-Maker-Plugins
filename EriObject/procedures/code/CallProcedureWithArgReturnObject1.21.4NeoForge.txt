@@ -1,0 +1,1 @@
+${field$procedure}Procedure.execute(<#list input_list$entry as entry>${entry}<#sep>,</#list>)

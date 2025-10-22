@@ -13,6 +13,14 @@
     "1.21.1_NeoForge": {
       "class": "java.util.Map<String,Double>",
       "default_value": "new HashMap<>()"
+    },
+    "1.21.4_NeoForge": {
+      "class": "java.util.Map<String,Double>",
+      "default_value": "new HashMap<>()"
+    },
+    "1.21.8_NeoForge": {
+      "class": "java.util.Map<String,Double>",
+      "default_value": "new HashMap<>()"
     }
   }
 }

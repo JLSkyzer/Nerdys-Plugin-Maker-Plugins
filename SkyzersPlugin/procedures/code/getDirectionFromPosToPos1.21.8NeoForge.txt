@@ -1,0 +1,45 @@
+new Object(){
+	private String getDirection(double playerX, double playerZ, double yaw, double targetX, double targetZ){
+		// Calcul des deltas en X et Z
+		double deltaX = targetX - playerX;
+		double deltaZ = targetZ - playerZ;
+		// Obtenir l'angle de rotation du joueur (en radians)
+		float yawRadians = (float) Math.toRadians(yaw);
+		// Calcul de l'angle absolu (en radians) entre le joueur et la cible
+		double angleToTarget = Math.atan2(deltaZ, deltaX);
+		// Ajuster l'angle absolu pour prendre en compte la rotation du joueur
+		double relativeAngle = angleToTarget - yawRadians;
+		// Convertir l'angle relatif en degrés
+		double relativeAngleDegrees = Math.toDegrees(relativeAngle);
+		// Normaliser l'angle relatif entre -180 et 180 degrés
+		if (relativeAngleDegrees < -180) {
+			relativeAngleDegrees += 360;
+		} else if (relativeAngleDegrees > 180) {
+			relativeAngleDegrees -= 360;
+		}
+		// Déterminer la direction en fonction de l'angle relatif
+		if (Math.abs(relativeAngleDegrees) <= 22.5) {
+			return "LEFT";
+		} else if (Math.abs(relativeAngleDegrees) <= 67.5) {
+			if (relativeAngleDegrees > 0) {
+				return "FORWARD-LEFT";
+			} else {
+				return "BACK-LEFT";
+			}
+		} else if (Math.abs(relativeAngleDegrees) <= 112.5) {
+			if (relativeAngleDegrees > 0) {
+				return "FORWARD";
+			} else {
+				return "BACK";
+			}
+		} else if (Math.abs(relativeAngleDegrees) <= 157.5) {
+			if (relativeAngleDegrees > 0) {
+				return "FORWARD-RIGHT";
+			} else {
+				return "BACK-RIGHT";
+			}
+		} else {
+			return "RIGHT";
+		}
+	}
+}.getDirection((double) ${input$x}, (double) ${input$z}, (double) ${input$yaw}, (double) ${input$targetX}, (double) ${input$targetZ})

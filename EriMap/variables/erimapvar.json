@@ -25,6 +25,14 @@
     "1.21.1_NeoForge": {
       "class": "java.util.Map<String,Object>",
       "default_value": "new HashMap<String, Object>()"
+    },
+    "1.21.4_NeoForge": {
+      "class": "java.util.Map<String,Object>",
+      "default_value": "new HashMap<String, Object>()"
+    },
+    "1.21.8_NeoForge": {
+      "class": "java.util.Map<String,Object>",
+      "default_value": "new HashMap<String, Object>()"
     }
   }
 }

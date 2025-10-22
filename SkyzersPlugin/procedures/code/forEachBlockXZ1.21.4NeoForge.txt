@@ -1,0 +1,14 @@
+{
+	int startX = Math.min(${input$startX}, ${input$endX});
+	int startZ = Math.min(${input$startZ}, ${input$endZ});
+	int endX = Math.max(${input$startX}, ${input$endX});
+	int endZ = Math.max(${input$startZ}, ${input$endZ});
+
+	for (int forx = startX; forx <= endX; forx++) {
+		for (int forz = startZ; forz <= endZ; forz++) {
+			int fory = ${input$forY};
+			// Code here
+			${statement$executor}
+		}
+	}
+}

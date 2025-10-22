@@ -14,7 +14,9 @@
   "type_index": 3,
   "versions": [
     "1.16.5_Forge",
-    "1.21.1_NeoForge"
+    "1.21.1_NeoForge",
+    "1.21.4_NeoForge",
+    "1.21.8_NeoForge"
   ],
   "components": {
     "id": {

@@ -1,0 +1,36 @@
+new Object() {
+	private double getPlayerMoney(String entity) {
+		if (ModList.get().isLoaded("ericonomy")) {
+			// Procedure here
+			java.io.File eriFile = new java.io.File("");
+			com.google.gson.JsonObject eriJsonObject = new com.google.gson.JsonObject();
+			double returnnbr = 0;
+			eriFile = new File((FMLPaths.GAMEDIR.get().toString() + "/Ericonomy/accounts/"), File.separator + (entity + ".json"));
+			try {
+				BufferedReader bufferedReader = new BufferedReader(new FileReader(eriFile));
+				StringBuilder jsonstringbuilder = new StringBuilder();
+				String line;
+				while ((line = bufferedReader.readLine()) != null) {
+					jsonstringbuilder.append(line);
+				}
+				bufferedReader.close();
+				eriJsonObject = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+				// Retour
+				returnnbr = eriJsonObject.get("money").getAsDouble();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			return returnnbr;
+		} else {
+			if (ModList.get().isLoaded("erinium_logs")) {
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(
+							new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"erilog " + "GameLoading" + " " + "info" + " " + "Mod Ericonomy not exist");
+			} else {
+				System.out.println("Erilog is not installed ! install here : https://github.com/JLSkyzer/Erinium-Adventure-mods/releases/tag/Erilog");
+			}
+			return 0;
+		}
+	};
+}.getPlayerMoney(${input$entity})

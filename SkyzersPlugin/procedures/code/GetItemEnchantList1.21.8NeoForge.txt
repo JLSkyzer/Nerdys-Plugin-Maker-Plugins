@@ -1,0 +1,1 @@
+${input$item}.getEnchantmentTags().toString()

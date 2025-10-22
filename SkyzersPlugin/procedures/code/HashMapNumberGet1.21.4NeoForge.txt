@@ -1,0 +1,14 @@
+new Object(){
+	private Double getNull(String index){
+		Object value = ${input$HashMap}.get(index);
+		if (value != null){
+			if(${input$HashMap}.get(index) != 0){
+				return (Double) ${input$HashMap}.get(index);
+			}else{
+				return 0.0;
+			}
+		}else{
+			return 0.0;
+		}
+	}
+}.getNull(${input$valueName})

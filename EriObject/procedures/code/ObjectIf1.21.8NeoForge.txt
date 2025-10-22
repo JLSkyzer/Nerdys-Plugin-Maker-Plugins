@@ -1,0 +1,3 @@
+if (${input$Object}) {
+	${statement$executor}
+}

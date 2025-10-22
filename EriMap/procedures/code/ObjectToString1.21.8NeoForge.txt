@@ -1,0 +1,8 @@
+new Object(){
+	private String returnvalue(Object obj){
+		if (obj instanceof String){
+			return (String) obj;
+		}
+		return "";
+	}
+}.returnvalue(${input$obj})

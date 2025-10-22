@@ -14,6 +14,8 @@
   "type_index": 4,
   "versions": [
     "1.18.2_Forge",
-    "1.21.1_NeoForge"
+    "1.21.1_NeoForge",
+    "1.21.4_NeoForge",
+    "1.21.8_NeoForge"
   ]
 }

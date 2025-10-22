@@ -1,0 +1,7 @@
+new Object(){
+    private double getOutput(double input, double min, double max){
+        double result = Math.max(min, Math.min(max, input));
+
+        return result;
+    }
+}.getOutput(${input$input}, ${input$min}, ${input$max})

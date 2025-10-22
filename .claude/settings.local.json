@@ -1,12 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python:*)",
-      "Bash(python3:*)",
-      "Bash(where python python3 py)",
-      "Read(//d/pluginbuilder_release_2.0/**)",
-      "Bash(dir:*)",
-      "Bash(node migrate_neoforge_version.js)"
+      "Bash(do echo \"=== $plugin procedures ===\")",
+      "Bash(find:*)",
+      "Bash(for name in CreateObjectArrayList NumberToObject ObjectToNumber ObjectToString StringToObject SwitchProcedure)",
+      "Bash(do if [ -f \"EriObject/procedures/$name.json\" ])",
+      "Bash(then echo \"JSON EXISTS: $name\")",
+      "Bash(else echo \"JSON MISSING: $name\")"
     ],
     "deny": [],
     "ask": []

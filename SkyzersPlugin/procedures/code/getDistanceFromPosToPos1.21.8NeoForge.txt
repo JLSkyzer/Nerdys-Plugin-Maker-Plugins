@@ -1,0 +1,8 @@
+new Object(){
+	private int getDistance(int posX1, int posZ1, int posX2, int posZ2){
+		double deltaX = posX2 - posX1;
+		double deltaZ = posZ2 - posZ1;
+
+		return (int) java.lang.Math.sqrt(deltaX * deltaX + deltaZ * deltaZ);
+	}
+}.getDistance((int) ${input$x},(int) ${input$z}, (int) ${input$x2}, (int) ${input$z2})

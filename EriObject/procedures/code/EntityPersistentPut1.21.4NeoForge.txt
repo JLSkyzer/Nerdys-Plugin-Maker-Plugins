@@ -1,0 +1,1 @@
+${input$entity}.getPersistentData().${field$type}(${input$data}, ${input$value});

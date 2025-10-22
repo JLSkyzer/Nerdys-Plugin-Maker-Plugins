@@ -13,6 +13,14 @@
     "1.21.1_NeoForge": {
       "class": "java.util.ArrayList<String>",
       "default_value": "new ArrayList<String>()"
+    },
+    "1.21.4_NeoForge": {
+      "class": "java.util.ArrayList<String>",
+      "default_value": "new ArrayList<String>()"
+    },
+    "1.21.8_NeoForge": {
+      "class": "java.util.ArrayList<String>",
+      "default_value": "new ArrayList<String>()"
     }
   }
 }

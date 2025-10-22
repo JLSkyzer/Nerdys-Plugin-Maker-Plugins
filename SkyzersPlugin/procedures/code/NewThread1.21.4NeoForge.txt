@@ -1,0 +1,5 @@
+new Thread(() -> {
+	// Traitement secondaire
+	${statement$executor}
+
+}).start();

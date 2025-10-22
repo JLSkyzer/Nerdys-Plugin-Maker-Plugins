@@ -1,0 +1,22 @@
+new Object(){
+	private int returnItemNumber(ItemStack item, Entity entity){
+		ItemStack tempItem = item;
+		double count = 0;
+		{
+			AtomicReference<IItemHandler> _iitemhandlerref = new AtomicReference<>();
+			IItemHandler capability = entity.getCapability(Capabilities.ItemHandler.ENTITY);
+            if (capability != null) {
+                _iitemhandlerref.set(capability);
+            }
+			if (_iitemhandlerref.get() != null) {
+				for (int _idx = 0; _idx < _iitemhandlerref.get().getSlots(); _idx++) {
+					ItemStack itemstackiterator = _iitemhandlerref.get().getStackInSlot(_idx).copy();
+					if (itemstackiterator.getItem() == tempItem.getItem()) {
+						count = count + (itemstackiterator).getCount();
+					}
+				}
+			}
+		}
+		return (int) count;
+	}
+}.returnItemNumber(${input$item}, ${input$entity})
